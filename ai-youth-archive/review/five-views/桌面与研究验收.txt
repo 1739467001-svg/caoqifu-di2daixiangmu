@@ -1,0 +1,29 @@
+2026-10-11 五主入口改版，实际桌面验收
+
+本地：http://127.0.0.1:4174/ai-youth/#home；本轮不部署公网。
+桌面尺寸：1280×720、935×524。未制作或验收手机版。
+独立测试站：4175 / API8790，数据仅 .private-notes/five-views-ui。
+全部资料和账号带“测试/隔离验收”标签，不加入主预览或线上数据库。
+
+已通过的实际浏览器操作：
+- 五主导航：主页、作品、创作者、比赛、我的；左侧栏未遮挡内容。
+- 我的资料卡、四类内容、收藏、容量、导出、个人资料与原参赛工具入口均保留。
+- 发帖分类、关联私人作品与即时预览；离开再回来、打开消息再回来均保留未提交正文和分类。
+- 关联私人作品仍标“暂未公开”；提交帖子后显示“待审核”，未出现在公开首页。
+- 消息面板保持原页面；会话可展开到完整双栏，再收回关闭返回原草稿，chat-body无重复ID。
+- 两个隔离账号实测发送邀请、接收方接受与发文字消息；邀请未接受时输入及发送不可用。
+- 审核页显示本人作品/帖子状态，关闭回原页面。
+- 935×524中输入框和发送按钮在面板内，消息区可独立滚动，页面无横向溢出。
+
+自动检查：Node --check、test-ui-lifecycle.cjs六组、deploy/test-preview.cjs通过。
+本轮未改后端、接口权限、技术栈或部署方式；未重复全面后端测试。
+新的workspace.css会随既有dist遍历打包机制包含。以前生成的包尚未重新发布。
+
+参考的是小功能的机制，尺寸和外观由本项目自行设计：
+- 飞书资料/收藏入口：https://www.feishu.cn/hc/zh-CN/articles/968054622804-第二步-认识飞书界面
+- Discourse讨论分类和写作草稿：https://meta.discourse.org/t/understanding-discourse-for-new-users/96331
+- Discourse写作预览：https://meta.discourse.org/t/composer-preview-toggle-now-lives-with-the-other-window-controls/408690/1
+- Reddit顶部聊天、邀请与屏蔽：https://support.reddithelp.com/hc/en-us/articles/39411701270036-How-to-use-Reddit-Chat
+仅阅读官方资料，未登录或发帖体验第三方账户；不声称复制其精确排版尺寸。
+
+截图：my-desktop.png、compose-desktop.png、messages-desktop.png、messages-small-desktop.png；包含明确标注的隔离测试内容。

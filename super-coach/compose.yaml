@@ -1,0 +1,13 @@
+services:
+  super-coach:
+    build: .
+    restart: unless-stopped
+    environment:
+      HOST: 0.0.0.0
+      PORT: 3210
+      USE_MOCK: "true"
+      AI_PROVIDER: doubao
+      # Configure the actual HTTPS origin in Coolify or uncomment below.
+      # APP_ORIGIN: https://coach.example.com
+    ports:
+      - "127.0.0.1:3210:3210"

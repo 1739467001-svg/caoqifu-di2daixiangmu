@@ -1,0 +1,11 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 720
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Microsoft YaHei,28,&H00FFFFFF,&H00FFFFFF,&H00151F19,&H00151F19,0,0,0,0,100,100,0,0,1,2,0,2,45,45,90,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.40,0:00:02.30,Default,,0,0,0,,资料画布原型，
+Dialogue: 0,0:00:02.30,0:00:08.00,Default,,0,0,0,,让灵感、伙伴反馈和资料围绕同一个作品整理。

@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#193d37">
+  <title>创作档案馆 · 发现</title>
+  <link rel="stylesheet" href="./workspace.css">
+  <script src="./workspace.js" defer></script>
+</head>
+<body>
+  <main id="archive-canvas-studio">
+    <div class="acs-shell">
+      <header class="acs-chrome">
+        <div class="acs-title-group">
+          <span class="acs-app-mark" aria-hidden="true">档</span>
+          <div><h2>创作档案馆</h2><span class="acs-small">个人档案 / AI小游戏</span></div>
+        </div>
+        <div class="acs-chrome-meta"><span class="acs-badge">独立工作区</span><span class="acs-chrome-note">发现 / 我的</span></div>
+      </header>
+
+      <section class="acs-home" hidden>
+        <span class="acs-section-label">个人空间</span>
+        <h3>我的创作档案</h3>
+        <div class="acs-small">继续整理消息、笔记和作品。</div>
+        <button type="button" class="acs-primary cursor-interaction" data-action="open">打开档案馆</button>
+      </section>
+
+      <section class="acs-layout" aria-label="档案馆整理工作区">
+        <aside class="acs-rail" aria-label="左侧文件夹工具">
+          <div class="acs-tools-head"><div><span class="acs-section-label">工作区工具</span><h3>整理档案</h3></div><button type="button" class="acs-quiet-button cursor-interaction" data-action="close">收起</button></div>
+
+          <div class="acs-tools">
+            <button type="button" class="acs-wide acs-primary acs-new-button cursor-interaction" data-action="new"><span aria-hidden="true">＋</span> 新建文件夹</button>
+            <div class="acs-detail"><div class="acs-empty">选一个文件夹，<br>在这里查看内容和设置。</div></div>
+            <hr>
+            <div class="acs-section-label">下一步功能</div>
+            <div class="acs-small acs-plan-description">备份与链上存证尚未接入</div>
+            <div class="acs-plan-buttons"><button type="button" class="cursor-interaction" data-action="backup">备份流程</button><button type="button" class="cursor-interaction" data-action="chain">存证流程</button></div>
+          </div>
+
+          <p class="acs-status" aria-live="polite">正在打开本机档案…</p>
+        </aside>
+
+        <div class="acs-stage">
+          <div class="acs-canvas-head"><div class="acs-canvas-title"><span class="acs-grid-mark" aria-hidden="true"></span><span>我的资料画布</span><span class="acs-canvas-mode">私人</span></div><span>拖动摆放 · 点文件夹查看</span></div>
+          <div class="acs-canvas" role="group" aria-label="文件夹画布"></div>
+          <section class="acs-public" aria-label="公开预览" hidden></section>
+          <div class="acs-stage-foot"><span>消息 / 笔记 / 文件 / 链接</span><span>方向键也可移动文件夹</span></div>
+        </div>
+      </section>
+    </div>
+
+    <dialog class="acs-wizard" aria-labelledby="acs-wizard-title">
+      <form class="acs-form" novalidate hidden>
+        <div class="acs-wizard-head"><span class="acs-form-title">新建文件夹</span><button type="button" class="acs-quiet-button" data-action="cancel" aria-label="关闭新建窗口">×</button></div>
+        <div class="acs-step-meta"><span class="acs-step-count" aria-live="polite">第 1 / 4 步</span><div class="acs-step-bars" aria-hidden="true"><i></i><i></i><i></i><i></i></div></div>
+        <div class="acs-question" data-step="0">
+          <h3 id="acs-wizard-title">这个文件夹叫什么？</h3>
+          <p class="acs-small">起一个你一眼就能认出来的名字。</p>
+          <label class="acs-field">文件夹名称<input name="folderName" aria-label="文件夹名称" maxlength="18" required placeholder="例如：伙伴的建议"></label>
+        </div>
+        <div class="acs-question" data-step="1" hidden>
+          <h3>你想用它保存什么？</h3>
+          <p class="acs-small">选一个主要用途，之后也能修改。</p>
+          <input type="hidden" name="kind">
+          <div class="acs-choice-list" role="group" aria-label="保存内容类型">
+            <button type="button" class="acs-choice" data-action="choose-kind" data-kind="message" aria-pressed="false"><b>消息与对话</b><span>保存交流和建议</span></button>
+            <button type="button" class="acs-choice" data-action="choose-kind" data-kind="note" aria-pressed="false"><b>制作笔记</b><span>记下想法和制作过程</span></button>
+            <button type="button" class="acs-choice" data-action="choose-kind" data-kind="file" aria-pressed="false"><b>图片与文件</b><span>收集作品资料</span></button>
+            <button type="button" class="acs-choice" data-action="choose-kind" data-kind="link" aria-pressed="false"><b>参考链接</b><span>留下网页和工具地址</span></button>
+            <button type="button" class="acs-choice" data-action="choose-kind" data-kind="mixed" aria-pressed="false"><b>混合资料</b><span>围绕同一个作品放在一起</span></button>
+          </div>
+        </div>
+        <div class="acs-question" data-step="2" hidden>
+          <h3>它主要用来做什么？</h3>
+          <p class="acs-small">写一句话，帮助以后整理。也可以先不写。</p>
+          <label class="acs-field">文件夹用途<textarea name="purpose" aria-label="文件夹用途" maxlength="100" placeholder="例如：收集大家给第一关的建议"></textarea></label>
+        </div>
+        <div class="acs-question" data-step="3" hidden>
+          <h3>要给它放一张封面图片吗？</h3>
+          <p class="acs-small">不放图片，就像电脑文件夹一样显示里面的内容。</p>
+          <input type="hidden" name="appearance" value="folder">
+          <div class="acs-choice-list acs-cover-choice" role="group" aria-label="封面选择">
+            <button type="button" class="acs-choice" data-action="choose-cover" data-cover="folder" aria-pressed="true"><b>暂时不放</b><span>显示文件夹里的内容</span></button>
+            <button type="button" class="acs-choice" data-action="choose-cover" data-cover="cover" aria-pressed="false"><b>放一张图片</b><span>用自己的图片做封面</span></button>
+          </div>
+          <div class="acs-cover-fields" hidden>
+            <label class="acs-field">选择封面图片<input type="file" name="coverFile" aria-label="选择封面图片" accept="image/png,image/jpeg,image/webp"></label>
+            <button type="button" class="acs-wide" data-action="sample-cover">试用示例封面</button>
+            <div class="acs-cover-preview" hidden></div>
+            <div class="acs-small">PNG、JPG或WebP，512KB以内。图片保留在本机，不上传。</div>
+          </div>
+        </div>
+        <p class="acs-wizard-message" aria-live="polite" hidden></p>
+        <div class="acs-wizard-foot"><button type="button" data-action="cancel">取消</button><div class="acs-row"><button type="button" data-action="step-back" hidden>上一步</button><button type="submit" class="acs-primary acs-step-next">下一步</button></div></div>
+      </form>
+    </dialog>
+  </main>
+</body>
+</html>

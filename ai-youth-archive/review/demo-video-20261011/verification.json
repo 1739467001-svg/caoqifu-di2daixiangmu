@@ -1,0 +1,90 @@
+{
+  "programs": [],
+  "stream_groups": [],
+  "streams": [
+    {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "codec_name": "aac",
+      "codec_type": "audio"
+    }
+  ],
+  "format": {
+    "duration": "117.320688",
+    "size": "1989411"
+  },
+  "kind": "真实截图讲解；非点击录屏",
+  "limits": "独立原型未合并主站；Solana版本核对与私人备份未接入",
+  "timeline": [
+    {
+      "id": "01_intro",
+      "start": 0,
+      "duration": 11.99,
+      "voice_seconds": 10.29
+    },
+    {
+      "id": "02_work",
+      "start": 11.99,
+      "duration": 11.255,
+      "voice_seconds": 9.555
+    },
+    {
+      "id": "03_files",
+      "start": 23.245,
+      "duration": 11.29,
+      "voice_seconds": 9.59
+    },
+    {
+      "id": "04_workspace",
+      "start": 34.535,
+      "duration": 11.685,
+      "voice_seconds": 9.985
+    },
+    {
+      "id": "05_folder",
+      "start": 46.22,
+      "duration": 12.395,
+      "voice_seconds": 10.695
+    },
+    {
+      "id": "06_messages",
+      "start": 58.615,
+      "duration": 11.52,
+      "voice_seconds": 9.82
+    },
+    {
+      "id": "07_preview",
+      "start": 70.135,
+      "duration": 12.06,
+      "voice_seconds": 10.36
+    },
+    {
+      "id": "08_chain",
+      "start": 82.195,
+      "duration": 11.33,
+      "voice_seconds": 9.63
+    },
+    {
+      "id": "09_backup",
+      "start": 93.525,
+      "duration": 11.78,
+      "voice_seconds": 10.08
+    },
+    {
+      "id": "10_end",
+      "start": 105.305,
+      "duration": 11.925,
+      "voice_seconds": 10.225
+    }
+  ],
+  "complete_decode_passed": true,
+  "frames": [
+    "验收-作品档案.png",
+    "验收-独立文件夹.png",
+    "验收-私人备份计划.png"
+  ]
+}

@@ -1,0 +1,25 @@
+图标外观初步检索，2026-10-11
+
+对照对象：site-icon-mobius-white-v3.png。绿白粗圆带交织，斜向布局，四个外侧圆孔，白底、柔和渐变。
+检索方式：网页搜索、图片搜索；实际通过浏览器查看 Drawlogo、Scalebranding 和 Pact 原图。没有向第三方上传用户图标，未执行商标数据库或完整反向搜图。
+
+1. Drawlogo / Abstract Knot Modern Logo
+https://drawlogo.org/logo/maker/abstract-knot-modern-logo/details
+原图：https://drawlogo.org/uploads/logos/modern/abstract-knot-modern-logo.png
+类型：现成图标模板，不代表已查证某公司使用。
+实际可见：青绿、紫蓝双色，四向环带穿插，菱形布局。与我们的交织思路接近；其转角更方、孔更像菱形，我们的带子更圆、绿白两条长环的走向也有区别。
+
+2. Pact / Micah Daigle 品牌设计案例
+https://www.micahdaigle.com/design/pact
+原图：https://images.squarespace-cdn.com/content/v1/638a7d00d0d311668565f366/3002e1fa-77da-4e7a-b1b4-74439279c113/Pact%2BMark%2B1.jpg?format=1500w
+类型：原设计者公开的品牌设计案例；页面标注2021–2022、Pending public launch，不能据此说产品目前已上线。
+实际可见：黑白四瓣编织结，中心菱形空隙，轮廓紧凑，线条描边。与我们的四瓣、交织和中心空隙有明显共同点；我们是双色填充的两条粗环带，走向与外形比例不同。
+
+3. OpenAI Blossom，品牌官方参考
+https://openai.com/brand/
+同类编织结联想，六瓣近圆结构，与我们的四向环带结构不同。可作为容易联想的品牌参考，不能把同类语言等同于完全相同。
+
+Scalebranding Infinite knot（https://scalebranding.com/product/259061）实际图为横向双孔无限符号，形状差异较大，不列作最接近案例。
+Microsoft Loop 仅核对官方页面和图标链接，未完成实际图片视觉对照，不给具体相似程度结论。
+
+助手判断：已找到相近设计语言和轮廓，交织环／绳结造型并不独有。本次没有确认完全相同的图标，也不能保证市场上不存在；不是商标可注册或侵权结论。用户本轮要求保留造型，因此没有擅自再改结构。

@@ -1,0 +1,214 @@
+{
+  "mobile": [
+    {
+      "busy": "false",
+      "main": 390,
+      "route": "#home",
+      "scrollWidth": 375,
+      "title": "首页 · 发现",
+      "width": 390
+    },
+    {
+      "busy": "false",
+      "main": 268,
+      "route": "#discover",
+      "scrollWidth": 375,
+      "title": "作品 · 发现",
+      "width": 390
+    },
+    {
+      "busy": "false",
+      "main": 487,
+      "route": "#events",
+      "scrollWidth": 375,
+      "title": "比赛 · 发现",
+      "width": 390
+    },
+    {
+      "busy": "false",
+      "main": 315,
+      "route": "#creators",
+      "scrollWidth": 375,
+      "title": "创作者 · 发现",
+      "width": 390
+    },
+    {
+      "busy": "false",
+      "main": 306,
+      "route": "#archive",
+      "scrollWidth": 375,
+      "title": "我的 · 发现",
+      "width": 390
+    },
+    {
+      "busy": "false",
+      "main": 310,
+      "route": "#archive/works",
+      "scrollWidth": 375,
+      "title": "我的 · 发现",
+      "width": 390
+    },
+    {
+      "busy": "false",
+      "main": 355,
+      "route": "#archive/files",
+      "scrollWidth": 375,
+      "title": "我的 · 发现",
+      "width": 390
+    },
+    {
+      "busy": "false",
+      "main": 303,
+      "route": "#archive/history",
+      "scrollWidth": 375,
+      "title": "我的 · 发现",
+      "width": 390
+    },
+    {
+      "busy": "false",
+      "main": 348,
+      "route": "#archive/events",
+      "scrollWidth": 375,
+      "title": "我的参赛资料 · 发现",
+      "width": 390
+    },
+    {
+      "busy": "false",
+      "main": 93,
+      "route": "#archive/posts",
+      "scrollWidth": 390,
+      "title": "我的动态 · 发现",
+      "width": 390
+    },
+    {
+      "busy": "false",
+      "main": 94,
+      "route": "#archive/notifications",
+      "scrollWidth": 390,
+      "title": "消息 · 发现",
+      "width": 390
+    },
+    {
+      "busy": "false",
+      "main": 98,
+      "route": "#archive/bookmarks",
+      "scrollWidth": 390,
+      "title": "我的收藏 · 发现",
+      "width": 390
+    },
+    {
+      "busy": "false",
+      "main": 126,
+      "route": "#archive/profile",
+      "scrollWidth": 375,
+      "title": "个人中心 · 发现",
+      "width": 390
+    },
+    {
+      "busy": "false",
+      "main": 229,
+      "route": "#prepare",
+      "scrollWidth": 375,
+      "title": "参赛准备 · 发现",
+      "width": 390
+    },
+    {
+      "busy": "false",
+      "main": 325,
+      "route": "#credential",
+      "scrollWidth": 375,
+      "title": "凭证草稿 · 发现",
+      "width": 390
+    },
+    {
+      "busy": "false",
+      "main": 126,
+      "route": "#login",
+      "scrollWidth": 375,
+      "title": "登录 · 发现",
+      "width": 390
+    }
+  ],
+  "desktop": [
+    {
+      "mainLeft": 116,
+      "mainTop": 95.4142608642578,
+      "railRight": 88,
+      "route": "#home",
+      "scrollWidth": 1265,
+      "title": "首页 · 发现",
+      "toolbarBottom": 68,
+      "width": 1280
+    },
+    {
+      "mainLeft": 116,
+      "mainTop": 97.26205444335938,
+      "railRight": 88,
+      "route": "#discover",
+      "scrollWidth": 1265,
+      "title": "作品 · 发现",
+      "toolbarBottom": 68,
+      "width": 1280
+    },
+    {
+      "mainLeft": 116,
+      "mainTop": 95.82173919677734,
+      "railRight": 88,
+      "route": "#events",
+      "scrollWidth": 1265,
+      "title": "比赛 · 发现",
+      "toolbarBottom": 68,
+      "width": 1280
+    },
+    {
+      "mainLeft": 116,
+      "mainTop": 96.7477569580078,
+      "railRight": 88,
+      "route": "#creators",
+      "scrollWidth": 1265,
+      "title": "创作者 · 发现",
+      "toolbarBottom": 68,
+      "width": 1280
+    },
+    {
+      "mainLeft": 116,
+      "mainTop": 95.0406494140625,
+      "railRight": 88,
+      "route": "#archive",
+      "scrollWidth": 1265,
+      "title": "我的 · 发现",
+      "toolbarBottom": 68,
+      "width": 1280
+    },
+    {
+      "mainLeft": 116,
+      "mainTop": 95.8205795288086,
+      "railRight": 88,
+      "route": "#prepare",
+      "scrollWidth": 1265,
+      "title": "参赛准备 · 发现",
+      "toolbarBottom": 68,
+      "width": 1280
+    },
+    {
+      "mainLeft": 116,
+      "mainTop": 96.26409912109376,
+      "railRight": 88,
+      "route": "#credential",
+      "scrollWidth": 1265,
+      "title": "凭证草稿 · 发现",
+      "toolbarBottom": 68,
+      "width": 1280
+    },
+    {
+      "mainLeft": 116,
+      "mainTop": 121.74850463867188,
+      "railRight": 88,
+      "route": "#profile",
+      "scrollWidth": 1265,
+      "title": "个人中心 · 发现",
+      "toolbarBottom": 68,
+      "width": 1280
+    }
+  ]
+}

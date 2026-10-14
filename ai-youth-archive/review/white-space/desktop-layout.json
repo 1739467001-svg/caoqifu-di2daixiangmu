@@ -1,0 +1,200 @@
+[
+  {
+    "heading": "首页",
+    "nav": 5,
+    "overflow": false,
+    "route": "#home",
+    "surfaces": [
+      {
+        "bg": "rgb(255, 255, 255)",
+        "class": ""
+      },
+      {
+        "bg": "rgb(255, 255, 255)",
+        "class": "site-header"
+      },
+      {
+        "bg": "rgb(255, 255, 255)",
+        "class": "topbar"
+      }
+    ],
+    "weekly": 0,
+    "width": 615
+  },
+  {
+    "heading": "作品",
+    "nav": 5,
+    "overflow": false,
+    "route": "#discover",
+    "surfaces": [
+      {
+        "bg": "rgb(255, 255, 255)",
+        "class": ""
+      },
+      {
+        "bg": "rgb(255, 255, 255)",
+        "class": "site-header"
+      },
+      {
+        "bg": "rgb(255, 255, 255)",
+        "class": "topbar"
+      }
+    ],
+    "weekly": 0,
+    "width": 615
+  },
+  {
+    "heading": "创作者",
+    "nav": 5,
+    "overflow": false,
+    "route": "#creators",
+    "surfaces": [
+      {
+        "bg": "rgb(255, 255, 255)",
+        "class": ""
+      },
+      {
+        "bg": "rgb(255, 255, 255)",
+        "class": "site-header"
+      },
+      {
+        "bg": "rgb(255, 255, 255)",
+        "class": "topbar"
+      },
+      {
+        "bg": "rgb(255, 255, 255)",
+        "class": "weekly-strip"
+      }
+    ],
+    "weekly": 1,
+    "width": 615
+  },
+  {
+    "heading": "比赛",
+    "nav": 5,
+    "overflow": false,
+    "route": "#events",
+    "surfaces": [
+      {
+        "bg": "rgb(255, 255, 255)",
+        "class": ""
+      },
+      {
+        "bg": "rgb(255, 255, 255)",
+        "class": "site-header"
+      },
+      {
+        "bg": "rgb(255, 255, 255)",
+        "class": "topbar"
+      }
+    ],
+    "weekly": 0,
+    "width": 615
+  },
+  {
+    "heading": "我的个人空间",
+    "nav": 5,
+    "overflow": false,
+    "route": "#archive",
+    "surfaces": [
+      {
+        "bg": "rgb(255, 255, 255)",
+        "class": ""
+      },
+      {
+        "bg": "rgb(255, 255, 255)",
+        "class": "site-header"
+      },
+      {
+        "bg": "rgb(255, 255, 255)",
+        "class": "topbar"
+      },
+      {
+        "bg": "rgb(255, 255, 255)",
+        "class": "profile-overview"
+      }
+    ],
+    "weekly": 0,
+    "width": 615
+  },
+  {
+    "body": "rgb(255, 255, 255)",
+    "nav": 5,
+    "overflow": false,
+    "route": "#home",
+    "weekly": 0,
+    "width": 935
+  },
+  {
+    "body": "rgb(255, 255, 255)",
+    "nav": 5,
+    "overflow": false,
+    "route": "#discover",
+    "weekly": 0,
+    "width": 935
+  },
+  {
+    "body": "rgb(255, 255, 255)",
+    "nav": 5,
+    "overflow": false,
+    "route": "#creators",
+    "weekly": 1,
+    "width": 935
+  },
+  {
+    "body": "rgb(255, 255, 255)",
+    "nav": 5,
+    "overflow": false,
+    "route": "#events",
+    "weekly": 0,
+    "width": 935
+  },
+  {
+    "body": "rgb(255, 255, 255)",
+    "nav": 5,
+    "overflow": false,
+    "route": "#archive",
+    "weekly": 0,
+    "width": 935
+  },
+  {
+    "body": "rgb(255, 255, 255)",
+    "nav": 5,
+    "overflow": false,
+    "route": "#home",
+    "weekly": 0,
+    "width": 1280
+  },
+  {
+    "body": "rgb(255, 255, 255)",
+    "nav": 5,
+    "overflow": false,
+    "route": "#discover",
+    "weekly": 0,
+    "width": 1280
+  },
+  {
+    "body": "rgb(255, 255, 255)",
+    "nav": 5,
+    "overflow": false,
+    "route": "#creators",
+    "weekly": 1,
+    "width": 1280
+  },
+  {
+    "body": "rgb(255, 255, 255)",
+    "nav": 5,
+    "overflow": false,
+    "route": "#events",
+    "weekly": 0,
+    "width": 1280
+  },
+  {
+    "body": "rgb(255, 255, 255)",
+    "nav": 5,
+    "overflow": false,
+    "route": "#archive",
+    "weekly": 0,
+    "width": 1280
+  }
+]

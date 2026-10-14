@@ -1,0 +1,9 @@
+工具模式：内置 image_gen，编辑用户上传的V5图标；非CLI模式。
+实际输入：C:/Users/xyzaa/AppData/Local/Temp/codex-clipboard-b22d0af8-f71a-4758-94e5-23d5ea5c475c.png
+输出：icon-design/site-icon-mobius-solid-v6.png
+用户最新要求：图标换成纯色。
+实现解释：现有绿白双色去掉渐变和银灰，绿带统一绿色、白带纯白；保留黑色圆角底、外部白底和穿插形状。已经查看新图，白带银灰渐变去除，改为平面色块。提示中的目标色值为绿#8CE64B、白#FFFFFF、黑#080808；未声明生成图每个像素严格符合这些色值。
+本版为图片预览，未替换主站图标。
+
+Actual prompt:
+Use case: precise-object-edit. IMAGE 1 is the edit target, the provided green-and-white interwoven ribbon emblem on a rounded black square with white outside margin. The only change is to REMOVE ALL GRADIENTS AND SHADING and convert it to clean FLAT SOLID COLOR BLOCKS. Preserve precisely the existing ribbon silhouette, green and white ribbon paths, inner and outer curves, band thickness, crossings and overlap order, all loop holes and central negative space, scale, orientation, location, tile dimensions, outer white margin and rounded-square corner radii. Green ribbon: one single uniform fresh lime green fill #8CE64B over every green section, no brighter or darker areas. White ribbon: one single uniform pure white fill #FFFFFF, no silver, gray, shadows or lighting. Rounded-square tile and every exposed background opening inside the tile: one uniform solid near-black fill #080808, no gradients, texture, shine or gray variation. Outside the rounded black tile: pure white #FFFFFF. Keep the symbol as green-and-white TWO-COLOR ribbons, do not turn the whole emblem into a single-color silhouette. Crisp smooth vector-like contours with normal edge antialiasing only. No outlines around ribbons, no extra crossing gaps, no geometric redesign, no 3D effects, no bevel, no shadows, no highlights, no textures, no text or watermark. This should look like the SAME ICON with only its gradient fills replaced by solid fills.

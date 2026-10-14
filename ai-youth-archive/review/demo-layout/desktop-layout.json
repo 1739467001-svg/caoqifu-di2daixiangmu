@@ -1,0 +1,467 @@
+[
+  {
+    "background": "rgb(255, 255, 255)",
+    "examples": 6,
+    "height": 720,
+    "missingImages": [],
+    "nav": [
+      {
+        "caption": "",
+        "label": "首页"
+      },
+      {
+        "caption": "",
+        "label": "作品"
+      },
+      {
+        "caption": "",
+        "label": "创作者"
+      },
+      {
+        "caption": "",
+        "label": "比赛"
+      },
+      {
+        "caption": "",
+        "label": "我的"
+      }
+    ],
+    "overflow": false,
+    "route": "#home",
+    "width": 1280
+  },
+  {
+    "background": "rgb(255, 255, 255)",
+    "examples": 3,
+    "height": 720,
+    "missingImages": [],
+    "nav": [
+      {
+        "caption": "",
+        "label": "首页"
+      },
+      {
+        "caption": "",
+        "label": "作品"
+      },
+      {
+        "caption": "",
+        "label": "创作者"
+      },
+      {
+        "caption": "",
+        "label": "比赛"
+      },
+      {
+        "caption": "",
+        "label": "我的"
+      }
+    ],
+    "overflow": false,
+    "route": "#discover",
+    "width": 1280
+  },
+  {
+    "background": "rgb(255, 255, 255)",
+    "examples": 3,
+    "height": 720,
+    "missingImages": [],
+    "nav": [
+      {
+        "caption": "",
+        "label": "首页"
+      },
+      {
+        "caption": "",
+        "label": "作品"
+      },
+      {
+        "caption": "",
+        "label": "创作者"
+      },
+      {
+        "caption": "",
+        "label": "比赛"
+      },
+      {
+        "caption": "",
+        "label": "我的"
+      }
+    ],
+    "overflow": false,
+    "route": "#creators",
+    "width": 1280
+  },
+  {
+    "background": "rgb(255, 255, 255)",
+    "examples": 3,
+    "height": 720,
+    "missingImages": [],
+    "nav": [
+      {
+        "caption": "",
+        "label": "首页"
+      },
+      {
+        "caption": "",
+        "label": "作品"
+      },
+      {
+        "caption": "",
+        "label": "创作者"
+      },
+      {
+        "caption": "",
+        "label": "比赛"
+      },
+      {
+        "caption": "",
+        "label": "我的"
+      }
+    ],
+    "overflow": false,
+    "route": "#events",
+    "width": 1280
+  },
+  {
+    "background": "rgb(255, 255, 255)",
+    "examples": 0,
+    "height": 720,
+    "missingImages": [],
+    "nav": [
+      {
+        "caption": "",
+        "label": "首页"
+      },
+      {
+        "caption": "",
+        "label": "作品"
+      },
+      {
+        "caption": "",
+        "label": "创作者"
+      },
+      {
+        "caption": "",
+        "label": "比赛"
+      },
+      {
+        "caption": "",
+        "label": "我的"
+      }
+    ],
+    "overflow": false,
+    "route": "#archive",
+    "width": 1280
+  },
+  {
+    "background": "rgb(255, 255, 255)",
+    "examples": 6,
+    "height": 524,
+    "missingImages": [],
+    "nav": [
+      {
+        "caption": "",
+        "label": "首页"
+      },
+      {
+        "caption": "",
+        "label": "作品"
+      },
+      {
+        "caption": "",
+        "label": "创作者"
+      },
+      {
+        "caption": "",
+        "label": "比赛"
+      },
+      {
+        "caption": "",
+        "label": "我的"
+      }
+    ],
+    "overflow": false,
+    "route": "#home",
+    "width": 935
+  },
+  {
+    "background": "rgb(255, 255, 255)",
+    "examples": 3,
+    "height": 524,
+    "missingImages": [],
+    "nav": [
+      {
+        "caption": "",
+        "label": "首页"
+      },
+      {
+        "caption": "",
+        "label": "作品"
+      },
+      {
+        "caption": "",
+        "label": "创作者"
+      },
+      {
+        "caption": "",
+        "label": "比赛"
+      },
+      {
+        "caption": "",
+        "label": "我的"
+      }
+    ],
+    "overflow": false,
+    "route": "#discover",
+    "width": 935
+  },
+  {
+    "background": "rgb(255, 255, 255)",
+    "examples": 3,
+    "height": 524,
+    "missingImages": [],
+    "nav": [
+      {
+        "caption": "",
+        "label": "首页"
+      },
+      {
+        "caption": "",
+        "label": "作品"
+      },
+      {
+        "caption": "",
+        "label": "创作者"
+      },
+      {
+        "caption": "",
+        "label": "比赛"
+      },
+      {
+        "caption": "",
+        "label": "我的"
+      }
+    ],
+    "overflow": false,
+    "route": "#creators",
+    "width": 935
+  },
+  {
+    "background": "rgb(255, 255, 255)",
+    "examples": 3,
+    "height": 524,
+    "missingImages": [],
+    "nav": [
+      {
+        "caption": "",
+        "label": "首页"
+      },
+      {
+        "caption": "",
+        "label": "作品"
+      },
+      {
+        "caption": "",
+        "label": "创作者"
+      },
+      {
+        "caption": "",
+        "label": "比赛"
+      },
+      {
+        "caption": "",
+        "label": "我的"
+      }
+    ],
+    "overflow": false,
+    "route": "#events",
+    "width": 935
+  },
+  {
+    "background": "rgb(255, 255, 255)",
+    "examples": 0,
+    "height": 524,
+    "missingImages": [],
+    "nav": [
+      {
+        "caption": "",
+        "label": "首页"
+      },
+      {
+        "caption": "",
+        "label": "作品"
+      },
+      {
+        "caption": "",
+        "label": "创作者"
+      },
+      {
+        "caption": "",
+        "label": "比赛"
+      },
+      {
+        "caption": "",
+        "label": "我的"
+      }
+    ],
+    "overflow": false,
+    "route": "#archive",
+    "width": 935
+  },
+  {
+    "background": "rgb(255, 255, 255)",
+    "examples": 6,
+    "height": 524,
+    "missingImages": [],
+    "nav": [
+      {
+        "caption": "",
+        "label": "首页"
+      },
+      {
+        "caption": "",
+        "label": "作品"
+      },
+      {
+        "caption": "",
+        "label": "创作者"
+      },
+      {
+        "caption": "",
+        "label": "比赛"
+      },
+      {
+        "caption": "",
+        "label": "我的"
+      }
+    ],
+    "overflow": false,
+    "route": "#home",
+    "width": 615
+  },
+  {
+    "background": "rgb(255, 255, 255)",
+    "examples": 3,
+    "height": 524,
+    "missingImages": [],
+    "nav": [
+      {
+        "caption": "",
+        "label": "首页"
+      },
+      {
+        "caption": "",
+        "label": "作品"
+      },
+      {
+        "caption": "",
+        "label": "创作者"
+      },
+      {
+        "caption": "",
+        "label": "比赛"
+      },
+      {
+        "caption": "",
+        "label": "我的"
+      }
+    ],
+    "overflow": false,
+    "route": "#discover",
+    "width": 615
+  },
+  {
+    "background": "rgb(255, 255, 255)",
+    "examples": 3,
+    "height": 524,
+    "missingImages": [],
+    "nav": [
+      {
+        "caption": "",
+        "label": "首页"
+      },
+      {
+        "caption": "",
+        "label": "作品"
+      },
+      {
+        "caption": "",
+        "label": "创作者"
+      },
+      {
+        "caption": "",
+        "label": "比赛"
+      },
+      {
+        "caption": "",
+        "label": "我的"
+      }
+    ],
+    "overflow": false,
+    "route": "#creators",
+    "width": 615
+  },
+  {
+    "background": "rgb(255, 255, 255)",
+    "examples": 3,
+    "height": 524,
+    "missingImages": [],
+    "nav": [
+      {
+        "caption": "",
+        "label": "首页"
+      },
+      {
+        "caption": "",
+        "label": "作品"
+      },
+      {
+        "caption": "",
+        "label": "创作者"
+      },
+      {
+        "caption": "",
+        "label": "比赛"
+      },
+      {
+        "caption": "",
+        "label": "我的"
+      }
+    ],
+    "overflow": false,
+    "route": "#events",
+    "width": 615
+  },
+  {
+    "background": "rgb(255, 255, 255)",
+    "examples": 0,
+    "height": 524,
+    "missingImages": [],
+    "nav": [
+      {
+        "caption": "",
+        "label": "首页"
+      },
+      {
+        "caption": "",
+        "label": "作品"
+      },
+      {
+        "caption": "",
+        "label": "创作者"
+      },
+      {
+        "caption": "",
+        "label": "比赛"
+      },
+      {
+        "caption": "",
+        "label": "我的"
+      }
+    ],
+    "overflow": false,
+    "route": "#archive",
+    "width": 615
+  }
+]

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">口袋星球作品演示封面</title>
+  <desc id="desc">用黑、白与绿色像素方块组成的漂浮星球游戏场景，有小屋、森林、路径和探险角色。</desc>
+  <defs><pattern id="star" width="143" height="101" patternUnits="userSpaceOnUse"><rect x="31" y="27" width="4" height="4" fill="#fff" opacity=".45"/><rect x="110" y="78" width="3" height="3" fill="#9ddb69" opacity=".65"/></pattern></defs>
+  <rect width="960" height="540" fill="#202320"/><rect width="960" height="540" fill="url(#star)"/>
+  <g fill="none" stroke="#fff" stroke-opacity=".16" stroke-width="2"><ellipse cx="550" cy="280" rx="310" ry="160" transform="rotate(-12 550 280)"/><ellipse cx="550" cy="280" rx="260" ry="205" transform="rotate(26 550 280)"/></g>
+  <g shape-rendering="crispEdges">
+    <path d="M360 327h46v-22h263v22h56v43h-24v45h-55v32H443v-23h-57v-46h-26Z" fill="#101310"/>
+    <path d="M330 269h38v-30h43v-24h228v24h64v30h36v70h-28v39h-73v27H430v-31h-63v-33h-37Z" fill="#5c873a"/>
+    <path d="M330 239h38v-28h43v-26h228v26h64v28h36v53h-28v29h-73v27H430v-27h-63v-29h-37Z" fill="#9ddb69"/>
+    <path d="M409 214h41v-12h160v12h55v51h-26v22H433v-19h-24Z" fill="#c5eea8"/>
+    <path d="M495 230h35v19h31v18h31v19h47v18h-64v-18h-33v-19h-30v-18h-38v-19Z" fill="#fff"/>
+    <g fill="#202320"><path d="M427 142h18v-15h32v15h18v44h-68Z"/><path d="M437 183h47v35h-47Z"/></g>
+    <path d="M431 147h17v-15h26v15h17v15h-60Z" fill="#fff"/><rect x="442" y="172" width="38" height="39" fill="#fff"/><rect x="455" y="185" width="15" height="27" fill="#202320"/><rect x="467" y="154" width="8" height="8" fill="#9ddb69"/>
+    <g fill="#202320"><path d="M583 129h22v-16h24v16h22v51h-68Z"/><rect x="611" y="179" width="10" height="40"/><path d="M649 168h19v-17h26v17h19v44h-64Z"/><rect x="677" y="211" width="8" height="26"/></g>
+    <path d="M591 135h17v-15h14v15h21v32h-52Zm64 40h18v-16h15v16h18v26h-51Z" fill="#82bf51"/>
+    <g transform="translate(540 271)"><rect x="0" y="0" width="22" height="19" fill="#202320"/><rect x="4" y="4" width="14" height="10" fill="#fff"/><rect x="-4" y="19" width="30" height="18" fill="#202320"/><rect x="0" y="20" width="22" height="9" fill="#fff"/><rect x="0" y="37" width="8" height="10" fill="#202320"/><rect x="14" y="37" width="8" height="10" fill="#202320"/><rect x="11" y="7" width="4" height="4" fill="#202320"/></g>
+    <g fill="#202320"><rect x="381" y="258" width="11" height="11"/><rect x="397" y="272" width="7" height="7"/><rect x="661" y="260" width="8" height="8"/><rect x="632" y="309" width="9" height="9"/></g>
+    <path d="M361 311h24v11h-24zm35 40h19v10h-19zm272-7h20v12h-20zm-230 31h39v9h-39z" fill="#9ddb69"/>
+    <path d="M532 407h20v27h-20v25h-13v-43h13Zm88-13h12v29h-12v21h-11v-34h11Z" fill="#82bf51"/>
+    <g transform="translate(766 94)"><path d="M0 11h12V0h44v11h12v39H56v11H12V50H0Z" fill="#9ddb69"/><path d="M15 14h34v8H15zm23 19h18v9H38z" fill="#202320"/></g>
+    <g fill="#fff"><path d="M196 197h8v-8h8v8h8v8h-8v8h-8v-8h-8Z"/><path d="M751 354h7v-7h7v7h7v7h-7v7h-7v-7h-7Z"/></g>
+  </g>
+  <g font-family="Microsoft YaHei, PingFang SC, sans-serif"><text x="54" y="85" font-size="38" font-weight="900" fill="#fff">口袋星球</text><text x="55" y="119" font-size="17" fill="#fff" fill-opacity=".65">把作品装进自己的小世界</text></g>
+  <g transform="translate(54 440)"><rect width="185" height="40" rx="20" fill="#fff"/><text x="92" y="26" text-anchor="middle" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="15" font-weight="700" fill="#202320">作品 · 整理 · 时间线</text></g>
+  <path d="M810 450h38m-13-13 13 13-13 13" fill="none" stroke="#9ddb69" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

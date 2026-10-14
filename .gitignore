@@ -1,0 +1,31 @@
+# macOS
+.DS_Store
+
+# 部署缓存（构建产物、打包 tarball、本地 blob，体积大且可重新生成）
+.deploy-cache/
+
+# 私有笔记与本地测试数据
+.private-notes/
+*.private-notes/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Node
+node_modules/
+
+# 日志与测试输出
+*.log
+test-results/
+
+# 本地环境变量
+.env
+.env.local
+.env.*.local
+
+# 编辑器
+.idea/
+.vscode/

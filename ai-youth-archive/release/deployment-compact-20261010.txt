@@ -1,0 +1,33 @@
+{
+  "mode": "apply",
+  "current_static": "/var/www/ai-youth-archive/releases/profile-page-20261008-153832",
+  "current_backend": null,
+  "nginx_before_sha256": "138feb2f3ffa920c6c142623341c7e3527adc8262b292236355878c571359e3f",
+  "nginx_after_sha256": "d160d048a650d88356f2de39b8cb2f14a0b14618340dc4ad475ac30a92964ee3",
+  "files": [
+    "dist/app.js",
+    "dist/hash.js",
+    "dist/index.html",
+    "dist/mark.svg",
+    "dist/style.css",
+    "dist/tools.js",
+    "backend/server.py",
+    "backend/manage.py",
+    "deploy/ai-youth-archive.service"
+  ],
+  "data_directory": "/var/lib/ai-youth-archive",
+  "backend_address": "127.0.0.1:8789",
+  "status": "deployed",
+  "static_release": "/var/www/ai-youth-archive/releases/20261010-125536-e47ed0",
+  "backend_release": "/opt/ai-youth-archive/releases/20261010-125536-e47ed0",
+  "backup": "/var/backups/ai-youth-archive/20261010-125536-e47ed0",
+  "existing_home_sha256": "8bf8bda14de5a9060805fda2a32aad0314f5e8b478e91ffd34828d2628662aa8",
+  "static_hashes": {
+    "app.js": "26f8d3b5a129559420fe384450a987f3a233cdbb964985f63b9e9683e57bc4da",
+    "hash.js": "21c56f0c434b77f33c25ccb60b196cd90dac04790565eb6b42dc4baddd36bfab",
+    "index.html": "51891a9a44b8c2bf5342853d9d62466555dce2cdefa54e34286ef82f9db224d0",
+    "mark.svg": "b220f47d3b1eb5e46b97e24fc72332aa90b789d47ac05d345c0e1f508d152c95",
+    "style.css": "49ef4e2bfcd4cb4b4b7984911fca8e3119512f5103a7663692c14bd74b27c27e",
+    "tools.js": "b247e783b57594c4681634169f26e992cca73664c5eb683d0c0dbb6183efb97f"
+  }
+}

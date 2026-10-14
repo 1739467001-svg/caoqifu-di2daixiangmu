@@ -1,0 +1,16 @@
+{
+  "name": "tanxun-coach",
+  "version": "7.0.0",
+  "private": true,
+  "type": "module",
+  "description": "探询 · AI 焦点教练",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "start": "node --env-file-if-exists=.env server.mjs",
+    "dev": "node --env-file-if-exists=.env --watch server.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "check": "node --check server.mjs && node --check src/ai.mjs && node --check src/mock-coach.mjs && node --check src/system-prompt.mjs && node --check src/config.mjs && node --check dist/app.js && node --check dist/task-store.js && node --check dist/voice-input.js && node --check dist/secure-upgrade.js"
+  }
+}

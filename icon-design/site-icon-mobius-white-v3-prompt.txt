@@ -1,0 +1,8 @@
+工具模式：内置 image_gen，参考已认可方向的平面 v2 图进行编辑；非 CLI 或脚本生成。
+参考文件：icon-design/site-icon-mobius-flat-v2.png
+输出：icon-design/site-icon-mobius-white-v3.png
+用户本轮要求：白底，保留图标本身形状，渐变加大一点。白带使用更明显但柔和的银灰渐变。
+生成图片已查看；这是设计预览，尚未替换主站 SVG。
+
+Actual prompt:
+Precise minimal edit of IMAGE 1, the approved current logo. Keep the icon symbol itself geometrically unchanged: preserve exactly the same green and white ribbon loops, their contours, thickness, relative positions, interwoven crossing order, central negative space, overall scale, orientation, and composition. Do not redesign or move any part of the emblem. Replace the ENTIRE dark/black background, including the rounded tile and the exposed corners, with a clean pure WHITE background (#FFFFFF). Keep the icon centered at the same size. Slightly strengthen the existing smooth tonal gradients within the ribbons, without making the drawing three-dimensional: the green remains the same fresh lime/leaf green; the white ribbon has a restrained pearl-white to light silver-gray gradient, a little more visible so it can be seen against a white background. Preserve the simple chunky flat vector/cartoon look. Only the background and the strength of the existing color gradients may change. No shadows cast on the background, no realistic lighting, no metal shine, no bevel or extrusion, no new outlines, no new shapes, no changes to the ribbon silhouette, no text, no watermark. One square logo image on an uninterrupted white background.

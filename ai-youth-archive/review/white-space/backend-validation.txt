@@ -1,0 +1,22 @@
+2026-10-11 站内互动消息：后端验证
+
+改动：backend/server.py、backend/README.md。
+新表 activity_notifications 和两个 SQLite 触发器由启动增量创建。
+接口 GET /api/notifications、POST /api/notifications/read；现有私聊接口不变。
+仅通知别人对本人帖子的点赞、别人提交且已批准的回复。
+原审核状态仍由本人作品/帖子列表提供。作品无点赞功能，不伪造作品赞。
+仅投影公开昵称/id，不含账号、私人简介、未批准回复或私聊正文。
+撤赞/撤审后隐藏；重复动作不重置已读；删除级联；不追溯旧活动。
+
+review/white-space/test_notifications.py：5组真实 HTTP + SQLite 检查通过。
+涵盖权限、点赞去重/自赞/撤赞、回复审批/撤审/删除、已读、来源检查、
+重启保存、旧库升级不补发历史活动。
+
+backend 中运行：python -m unittest -v test_api.py test_chats.py test_comments.py
+29组原有回归通过，19.9秒。账号、文件、作品历史、公开权限、导出、
+审核、私聊邀请/屏蔽/限流/分页/未读/重启、回复均通过。
+Python语法检查通过。
+
+所有测试均使用隔离临时数据库与独立环回 HTTP 子进程；不修改主预览数据。
+测试临时目录自动清理；测试服务已退出。截图、测试脚本、私有库不部署。
+本文件是代码验证记录，不代表公网部署完成。

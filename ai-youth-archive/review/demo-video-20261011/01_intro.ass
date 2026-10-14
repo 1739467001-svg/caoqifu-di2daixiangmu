@@ -1,0 +1,12 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 720
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Microsoft YaHei,25,&H00FFFFFF,&H00FFFFFF,&H001C3629,&H001C3629,0,0,0,0,100,100,0,0,1,1,0,2,40,40,10,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.35,0:00:04.68,Default,,0,0,0,,黑客松作品常散落在聊天和网盘里。
+Dialogue: 0,0:00:04.68,0:00:07.93,Default,,0,0,0,,发现要把作品与创作过程，
+Dialogue: 0,0:00:07.93,0:00:10.64,Default,,0,0,0,,整理到你的私人空间。

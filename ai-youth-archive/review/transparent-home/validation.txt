@@ -1,0 +1,10 @@
+2026-10-11 本地首页透明渐变试做
+PASS 8组既有前端回归（review/five-views/test-ui-lifecycle.cjs）
+PASS 6组演示回归（review/demo-layout/test-demo-ui.cjs）
+PASS app.js Node语法
+PASS 首页/分类/私聊背景主题隔离，其他页面停用主题；独立只读审查
+PASS 实际浏览器615x524、935x524、1280x720，无横向溢出或损坏图片
+PASS 分类过滤、对话弹出关闭、未登录发帖原提示
+PASS 背景渐变及mask、正文opacity=1、帖子无backdrop模糊
+PASS 悬停背景opacity .90→1，180ms；减少动效时0s，恢复原开关
+本地4174已更新；后端、数据库、部署方式未改；公网未发布。

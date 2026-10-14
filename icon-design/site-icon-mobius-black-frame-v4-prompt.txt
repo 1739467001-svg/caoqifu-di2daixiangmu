@@ -1,0 +1,8 @@
+工具模式：内置 image_gen，编辑已有白底V3图片；非CLI模式。
+参考：icon-design/site-icon-mobius-white-v3.png
+输出：icon-design/site-icon-mobius-black-frame-v4.png
+本轮用户要求：外面有一个黑色框，提到类似“千问”。
+本版具体实现：外围黑色圆角方形边框，框内白底；保留绿白／银灰环带的原有造型与渐变。已查看输出，边框没有碰到或遮住带子。本版为单独图片预览，未替换网站。
+
+Actual prompt:
+Use case: precise-object-edit. Edit target: IMAGE 1, the currently approved white-background green-and-silver interwoven ribbon logo. Add ONLY one solid BLACK rounded-square OUTLINE FRAME around the existing emblem, so it reads as a complete app icon. Preserve the interior emblem exactly as supplied: the two ribbon loops, lime green and pearl white/light silver gray gradients, all contours, thickness, crossing order, four curved openings, central negative space, size, location, angle, and flat chunky cartoon/vector style. Do not redraw or redesign the emblem. Frame specification: centered rounded square, even medium-bold black stroke, smoothly rounded generous corners, no sharp corners, no gradient or texture on the black frame. The entire emblem must sit comfortably within the frame with a clear white margin on every side, no overlap or clipping. Keep the square image layout and emblem centered. The INSIDE of the rounded-square frame remains PURE WHITE, and the outside background also remains PURE WHITE. This is an enclosing black border, NOT a black filled background, NOT a black outline around the ribbons. Add no extra inner border, no shadow, no bevel, no gloss, no 3D effects, no text, no brand names or new symbols, no watermark. Only add the black rounded-square outer frame; all existing icon design and gradients remain unchanged.

@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, interactive-widget=resizes-content">
+  <meta name="theme-color" content="#f7f2e4">
+  <meta name="description" content="探询，你的 AI 焦点教练。通过对话理清头绪，找到问题的重点。">
+  <title>探询 · AI 焦点教练</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/app.js" type="module"></script>
+</head>
+<body>
+  <div class="intro" id="intro" role="dialog" aria-modal="true" aria-labelledby="intro-title" aria-describedby="intro-description" hidden>
+    <div class="intro-stage">
+      <div class="intro-mark">
+        <h2 id="intro-title">探询</h2>
+      </div>
+      <p class="intro-description" id="intro-description">从一个问题，走近真正的自己。</p>
+      <div class="intro-loading" aria-hidden="true">
+        <div class="intro-track"><span id="intro-fill"></span></div>
+        <div class="intro-meta"><span>正在进入探询 · HELLO, YOU</span><span id="intro-percent">0%</span></div>
+      </div>
+    </div>
+    <button class="intro-skip" id="intro-skip" type="button">点击任意处跳过 <span>↗</span><span class="sr-only">，也可按 Escape 键</span></button>
+  </div>
+  <a class="skip-link" href="#message-input">跳到消息输入框</a>
+  <div class="chat-app">
+    <div class="sidebar-shell" id="sidebar-shell">
+    <aside class="task-sidebar" id="task-sidebar" aria-label="对话列表">
+      <div class="sidebar-heading">
+        <div class="brand-lockup"><div class="brand">探询</div><span class="brand-version" aria-label="版本 7.0">v7.0</span></div>
+        <button id="sidebar-close" class="sidebar-control" type="button" aria-label="收起对话列表" title="收起对话列表"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="M9 4v16m7-12-3 4 3 4"/></svg></button>
+      </div>
+      <button id="new-task" class="new-task" type="button"><span aria-hidden="true">＋</span>新对话</button>
+      <p class="sidebar-label" id="task-list-label">你的对话</p>
+      <nav class="task-navigation" aria-label="切换探询任务">
+        <ul id="task-list" class="task-list"></ul>
+        <p id="task-list-empty" class="task-list-empty" hidden>还没有归档对话。</p>
+        <p id="task-feedback" class="task-feedback" role="status" hidden></p>
+      </nav>
+      <p id="task-name-hint" class="sr-only">直接编辑名称，最多 60 个字符。按 Enter 或点击勾号保存，点击其他位置也会保存；按 Escape 或点击叉号取消。</p>
+      <button id="archive-toggle" class="archive-toggle" type="button" aria-pressed="false">已归档（0）</button>
+    </aside>
+    </div>
+    <button id="sidebar-backdrop" class="sidebar-backdrop" type="button" aria-label="关闭对话列表" tabindex="-1" hidden></button>
+    <div class="chat-main" id="chat-main">
+    <header class="page-header">
+      <div class="header-context">
+        <button id="sidebar-toggle" class="sidebar-control" type="button" aria-label="展开对话列表" aria-controls="task-sidebar" aria-expanded="false" title="展开对话列表"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="M9 4v16"/></svg></button>
+        <h1 id="current-task-name" tabindex="-1">新对话</h1>
+      </div>
+      <div class="header-note"><span class="coach-label">AI 焦点教练</span></div>
+    </header>
+    <p id="task-announcement" class="sr-only" role="status"></p>
+    <main class="conversation-scroll" id="conversation-scroll" aria-label="与探询的对话">
+      <section class="new-conversation-welcome" id="new-conversation-welcome" aria-labelledby="welcome-title" hidden>
+        <h2 id="welcome-title">你想让我帮你<br><span>探询什么问题？</span></h2>
+        <p class="welcome-description">你好，我是你的思考教练。<br>说说你遇到的困难，我们一起把问题说清楚，找到<strong class="brush-mark">能动手做的办法</strong>。</p>
+      </section>
+      <div class="conversation-intro" aria-hidden="true">
+        <h2>从一个问题，<span>开始探询。</span></h2>
+      </div>
+      <div class="conversation" id="conversation" role="log" aria-live="polite" aria-relevant="additions" aria-label="聊天消息"></div>
+    </main>
+    <div class="composer-dock">
+      <p id="message-feedback" class="message-feedback" role="status" hidden></p>
+      <div id="archive-notice" class="archive-notice" hidden><span>此对话已归档，恢复后可继续聊。</span><button id="restore-current" type="button">恢复对话</button></div>
+      <div class="error-message" id="error-message" role="alert" hidden></div>
+      <button id="retry-action" class="retry-action" type="button" hidden>重试这次操作</button>
+      <div class="composer-shell" id="composer-shell">
+        <div id="interaction-mode-bar" class="interaction-mode-bar" hidden>
+          <button id="interaction-mode-trigger" type="button" aria-expanded="false" aria-controls="composer-prompts">选择交互模式</button>
+          <button id="prompt-toggle" type="button" aria-expanded="false" aria-controls="composer-prompts"><span id="prompt-toggle-label">收起</span><span class="prompt-chevron" aria-hidden="true">⌃</span></button>
+        </div>
+        <section id="composer-prompts" class="composer-prompts" aria-label="本轮探询" hidden>
+          <div class="prompt-clip"><div class="prompt-scroll" id="prompt-scroll" tabindex="0" aria-label="本轮问题和选项，可上下滚动">
+            <p id="prompt-heading" class="prompt-heading"></p>
+            <div id="prompt-list" class="prompt-list"></div>
+            <p id="prompt-hint" class="prompt-hint"></p>
+          </div></div>
+        </section>
+        <p id="open-answer-guide" class="open-answer-guide" hidden><strong>直接说说你的想法</strong></p>
+        <div id="delivery-controls" class="delivery-controls" hidden><span id="delivery-status" role="status"></span><button id="queue-button" type="button" hidden>排队发送</button></div>
+        <div id="queued-message" class="queued-message" hidden><span id="queued-text"></span><button id="send-queued" type="button" hidden>发送</button><button id="cancel-queued" type="button">取消排队</button></div>
+      <form id="chat-form" class="composer" aria-label="发送消息">
+        <label for="message-input" class="sr-only">给探询的消息</label>
+        <textarea id="message-input" name="message" rows="1" maxlength="4000" placeholder="说说你的需求或想法…" aria-describedby="composer-note" disabled></textarea>
+        <div class="composer-actions" role="group" aria-label="输入与发送">
+          <button id="voice-button" class="composer-action" type="button" aria-label="语音输入" aria-pressed="false" title="语音输入" aria-describedby="voice-help" disabled><svg class="mic-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="3" width="6" height="12" rx="3"/><path d="M5 10v2a7 7 0 0 0 14 0v-2M12 19v3m-4 0h8"/></svg></button>
+          <button id="send-button" class="composer-action" type="submit" aria-label="发送消息" title="发送消息" disabled><svg class="send-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5m-6 6 6-6 6 6"/></svg><span class="send-stop" aria-hidden="true"></span><span class="send-pause" aria-hidden="true"></span></button>
+        </div>
+      </form>
+      </div>
+      <p id="voice-status" class="voice-status" role="status" hidden></p>
+      <button id="secure-page-button" class="secure-page-button" type="button" hidden>带上对话，进入安全页面 ↗</button>
+      <p id="voice-help" class="voice-help">语音由浏览器识别，可能使用其在线语音服务；转为文字后由你<strong>确认发送</strong>。</p>
+      <p id="composer-note"><span class="note-mode">AI 回复</span><span class="note-shortcuts"><kbd>Enter</kbd> 发送 · <kbd>Shift + Enter</kbd> 换行</span><span class="note-storage">任务<strong>保存在此浏览器</strong></span></p>
+      <p id="storage-notice" class="storage-notice" role="status" hidden></p>
+    </div>
+    </div>
+  </div>
+  <dialog id="delete-dialog" class="delete-dialog" aria-labelledby="delete-dialog-title" aria-describedby="delete-dialog-description">
+    <h2 id="delete-dialog-title">删除这段对话？</h2>
+    <p id="delete-dialog-name" class="delete-dialog-name"></p>
+    <p id="delete-dialog-description">删除后，将失去这段对话的所有记录，包括消息和草稿，且无法恢复。</p>
+    <form method="dialog" class="delete-dialog-actions">
+      <button type="submit" value="cancel" autofocus>取消</button>
+      <button type="submit" value="delete" class="confirm-delete">确认删除</button>
+    </form>
+  </dialog>
+  <dialog id="message-delete-dialog" class="delete-dialog" aria-labelledby="message-delete-title" aria-describedby="message-delete-description">
+    <h2 id="message-delete-title">删除这条消息？</h2>
+    <p id="message-delete-description">删除后无法恢复。</p>
+    <form method="dialog" class="delete-dialog-actions">
+      <button type="submit" value="cancel" autofocus>取消</button>
+      <button type="submit" value="delete" class="confirm-delete">确认删除</button>
+    </form>
+  </dialog>
+  <noscript>请启用 JavaScript 后和探询聊天。</noscript>
+</body>
+</html>

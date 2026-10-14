@@ -1,0 +1,60 @@
+{
+  "python": "3.12.3",
+  "python_supported": true,
+  "nginx_config": "/etc/nginx/sites-available/tanxun",
+  "current": "/var/www/ai-youth-archive/current",
+  "current_target": "/var/www/ai-youth-archive/releases/profile-page-20261008-153832",
+  "data_directory_exists": false,
+  "disk_free_bytes": 26923585536,
+  "nginx_sha256": "138feb2f3ffa920c6c142623341c7e3527adc8262b292236355878c571359e3f",
+  "archive_route_lines": [
+    "location = /ai-youth { return 301 /ai-youth/; }",
+    "location ^~ /ai-youth/ {",
+    "location = /ai-youth { return 301 /ai-youth/; }",
+    "location ^~ /ai-youth/ {"
+  ],
+  "port_8789_available": true,
+  "live_static_sha256": {
+    "index.html": "e08155263787c07865a88aa4faaad4cc52c1776db28704c4d30358f91f3ae4ac",
+    "app.js": "7589a2a92aa8dada4a2b9d6bbd337d27bbd7094f86aa18609f82923a69f46aea",
+    "style.css": "0df9616d204022a170e83d01b95e4ec9c41e2dde79e3d5ce990c813b93c6f48c",
+    "hash.js": "21c56f0c434b77f33c25ccb60b196cd90dac04790565eb6b42dc4baddd36bfab"
+  },
+  "memory": {
+    "code": 0,
+    "output": "total        used        free      shared  buff/cache   available\nMem:            1613        1089         169         215         725         523\nSwap:           2047           0        2047"
+  },
+  "nginx_test": {
+    "code": 0,
+    "output": "nginx: the configuration file /etc/nginx/nginx.conf syntax is ok\nnginx: configuration file /etc/nginx/nginx.conf test is successful"
+  },
+  "archive_service": {
+    "code": 0,
+    "output": "LoadState=not-found\nActiveState=inactive\nUnitFileState="
+  },
+  "listeners": {
+    "code": 0,
+    "output": "State  Recv-Q Send-Q Local Address:Port  Peer Address:PortProcess\nLISTEN 0      4096      127.0.0.54:53         0.0.0.0:*          \nLISTEN 0      511          0.0.0.0:80         0.0.0.0:*          \nLISTEN 0      4096         0.0.0.0:22         0.0.0.0:*          \nLISTEN 0      4096       127.0.0.1:3210       0.0.0.0:*          \nLISTEN 0      511          0.0.0.0:443        0.0.0.0:*          \nLISTEN 0      4096   127.0.0.53%lo:53         0.0.0.0:*          \nLISTEN 0      4096       127.0.0.1:8000       0.0.0.0:*          \nLISTEN 0      4096       127.0.0.1:6001       0.0.0.0:*          \nLISTEN 0      4096       127.0.0.1:6002       0.0.0.0:*          \nLISTEN 0      4096       127.0.0.1:34369      0.0.0.0:*          \nLISTEN 0      511             [::]:80            [::]:*          \nLISTEN 0      4096            [::]:22            [::]:*"
+  }
+}
+{
+  "mode": "read-only-plan",
+  "current_static": "/var/www/ai-youth-archive/releases/profile-page-20261008-153832",
+  "current_backend": null,
+  "nginx_before_sha256": "138feb2f3ffa920c6c142623341c7e3527adc8262b292236355878c571359e3f",
+  "nginx_after_sha256": "d160d048a650d88356f2de39b8cb2f14a0b14618340dc4ad475ac30a92964ee3",
+  "files": [
+    "dist/app.js",
+    "dist/hash.js",
+    "dist/index.html",
+    "dist/mark.svg",
+    "dist/style.css",
+    "dist/tools.js",
+    "backend/server.py",
+    "backend/manage.py",
+    "deploy/ai-youth-archive.service"
+  ],
+  "data_directory": "/var/lib/ai-youth-archive",
+  "backend_address": "127.0.0.1:8789"
+}
+TRANSFER_VERIFIED_READ_ONLY_PLAN_COMPLETE

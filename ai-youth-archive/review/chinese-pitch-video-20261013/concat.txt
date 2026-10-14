@@ -1,0 +1,8 @@
+file '01_opening.mp4'
+file '02_problem.mp4'
+file '03_product.mp4'
+file '04_private.mp4'
+file '05_workspace.mp4'
+file '06_share.mp4'
+file '07_trust.mp4'
+file '08_close.mp4'

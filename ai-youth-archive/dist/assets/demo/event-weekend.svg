@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">周末发明家冲刺演示海报</title>
+  <desc id="desc">白底黑绿海报，用爆炸构造图展示零件、方块和齿轮如何组成一个新发明。</desc>
+  <defs><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" stroke="#202320" stroke-opacity=".08" fill="none"/></pattern><pattern id="check" width="32" height="32" patternUnits="userSpaceOnUse"><rect width="32" height="32" fill="#fff"/><path d="M0 0h16v16H0zm16 16h16v16H16z" fill="#202320"/></pattern></defs>
+  <rect width="960" height="540" fill="#fff"/>
+  <rect x="426" width="534" height="540" fill="url(#grid)"/>
+  <path d="M450 0v540" stroke="#202320" stroke-width="2"/>
+  <rect x="0" y="498" width="960" height="42" fill="url(#check)"/>
+  <rect x="54" y="47" width="134" height="31" rx="15" fill="#202320"/><text x="121" y="68" text-anchor="middle" fill="#fff" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="14" font-weight="700">把周末用来创造</text>
+  <g fill="#202320" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-weight="900"><text x="51" y="157" font-size="54">周末发明家</text><text x="51" y="222" font-size="54">冲刺</text></g>
+  <rect x="54" y="250" width="127" height="9" fill="#9ddb69"/>
+  <text x="54" y="294" fill="#656a62" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="19">拆开问题，拼出新办法。</text>
+  <g transform="translate(50 355)" font-family="Microsoft YaHei, PingFang SC, sans-serif"><text x="4" y="24" fill="#202320" font-size="23" font-weight="800">想法 → 原型 → 演示</text><text x="4" y="57" fill="#656a62" font-size="15">小工具、小游戏，都可以开工。</text></g>
+  <g fill="none" stroke="#202320" stroke-width="2" stroke-dasharray="6 7"><path d="M685 105v348M515 308h327M581 160 812 391"/></g>
+  <g transform="translate(686 91)"><path d="m0-38 65 31v30L0 53-65 23V-7Z" fill="#202320"/><path d="m-65-7 65 31 65-31L0-38Z" fill="#9ddb69" stroke="#202320" stroke-width="3"/><path d="M0 24v29" stroke="#fff" stroke-width="2"/><path d="m-29-6 29 14L29-6 0-20Z" fill="#fff" stroke="#202320" stroke-width="3"/></g>
+  <g transform="translate(684 252)"><path d="m-105-10 105-52 107 52L0 43Z" fill="#fff" stroke="#202320" stroke-width="3"/><path d="M-105-10v54L0 96V43Z" fill="#9ddb69" stroke="#202320" stroke-width="3"/><path d="M0 43v53l107-53v-53Z" fill="#82bf51" stroke="#202320" stroke-width="3"/><path d="m-74 12 37 19v25l-37-19Z" fill="#202320"/><path d="m17 49 37-18v26L17 75Z" fill="#fff" stroke="#202320" stroke-width="2"/><circle cx="0" cy="-11" r="26" fill="#9ddb69" stroke="#202320" stroke-width="3"/><ellipse cy="-11" rx="10" ry="6" fill="#202320"/></g>
+  <g transform="translate(524 176) rotate(-17)"><path d="M-40-17h18v-18h44v18h18v34H22v18h-44V17h-18Z" fill="#9ddb69" stroke="#202320" stroke-width="3"/><circle r="14" fill="#fff" stroke="#202320" stroke-width="3"/></g>
+  <g transform="translate(844 200)"><rect x="-32" y="-30" width="64" height="60" rx="12" fill="#202320"/><path d="M-13-12 1 0l-14 12M6-12 19 0 6 12" fill="none" stroke="#9ddb69" stroke-width="5" stroke-linejoin="round"/></g>
+  <g transform="translate(697 408)"><path d="m-76 0 76-36L76 0 0 37Z" fill="#fff" stroke="#202320" stroke-width="3"/><path d="M-76 0v18L0 54V37Zm76 37v17l76-36V0Z" fill="#202320" stroke="#202320" stroke-width="3"/><path d="m-31 0 31-15L31 0 0 15Z" fill="#9ddb69" stroke="#202320" stroke-width="2"/></g>
+  <g fill="#202320" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="13"><path d="M739 72h73l12-12" stroke="#202320" fill="none"/><text x="831" y="63">一块灵感</text><path d="M766 342h60l16 17" stroke="#202320" fill="none"/><text x="824" y="382">一个原型</text></g>
+  <g transform="translate(503 450)"><rect width="66" height="26" rx="13" fill="#9ddb69"/><circle cx="13" cy="13" r="5" fill="#202320"/><path d="M26 13h25" stroke="#202320" stroke-width="3"/></g>
+  <path d="M889 429v30m-15-15h30" stroke="#202320" stroke-width="4"/><circle cx="899" cy="47" r="8" fill="#9ddb69"/>
+</svg>

@@ -1,0 +1,42 @@
+[Unit]
+Description=AI Youth Archive private API
+After=network.target
+
+[Service]
+Type=simple
+User=ai-youth
+Group=ai-youth
+WorkingDirectory=/opt/ai-youth-archive/current
+ExecStart=/usr/bin/python3 /opt/ai-youth-archive/current/server.py --port 8789
+Environment=PYTHONDONTWRITEBYTECODE=1
+Environment=PYTHONUNBUFFERED=1
+Environment=ARCHIVE_DATA_DIR=/var/lib/ai-youth-archive
+Environment=ARCHIVE_COOKIE_PATH=/ai-youth/
+Environment=ARCHIVE_SECURE_COOKIE=1
+Environment=ARCHIVE_QUOTA_BYTES=104857600
+Environment=ARCHIVE_TOTAL_QUOTA_BYTES=2147483648
+Environment=ARCHIVE_MAX_ACCOUNTS=200
+EnvironmentFile=-/etc/ai-youth-archive/runtime.env
+StateDirectory=ai-youth-archive
+StateDirectoryMode=0700
+UMask=0077
+Restart=on-failure
+RestartSec=3
+TimeoutStopSec=20
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/var/lib/ai-youth-archive
+ProtectKernelTunables=true
+ProtectKernelModules=true
+ProtectControlGroups=true
+RestrictSUIDSGID=true
+CapabilityBoundingSet=
+RestrictAddressFamilies=AF_UNIX AF_INET AF_INET6
+MemoryMax=192M
+TasksMax=64
+CPUQuota=80%
+
+[Install]
+WantedBy=multi-user.target

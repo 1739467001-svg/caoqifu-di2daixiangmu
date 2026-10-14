@@ -1,0 +1,65 @@
+{
+  "programs": [],
+  "stream_groups": [],
+  "streams": [
+    {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "codec_name": "aac",
+      "codec_type": "audio"
+    }
+  ],
+  "format": {
+    "duration": "117.030688",
+    "size": "1465761"
+  },
+  "kind": "中文路演视频；真实产品截图、独立原型截图与明确标注的未来计划",
+  "limits": "资料画布未并入主站；备份、链上记录与主办方确认仍在计划中",
+  "timeline": [
+    {
+      "id": "01_opening",
+      "duration": 13.2,
+      "voice_seconds": 6.43
+    },
+    {
+      "id": "02_problem",
+      "duration": 14.4,
+      "voice_seconds": 8.11
+    },
+    {
+      "id": "03_product",
+      "duration": 14.4,
+      "voice_seconds": 8.655
+    },
+    {
+      "id": "04_private",
+      "duration": 13.7,
+      "voice_seconds": 8.875
+    },
+    {
+      "id": "05_workspace",
+      "duration": 15.0,
+      "voice_seconds": 7.595
+    },
+    {
+      "id": "06_share",
+      "duration": 14.4,
+      "voice_seconds": 6.705
+    },
+    {
+      "id": "07_trust",
+      "duration": 17.8,
+      "voice_seconds": 9.635
+    },
+    {
+      "id": "08_close",
+      "duration": 14.0,
+      "voice_seconds": 6.755
+    }
+  ],
+  "total_duration_seconds": 116.9
+}

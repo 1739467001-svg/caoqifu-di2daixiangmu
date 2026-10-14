@@ -1,0 +1,569 @@
+[
+  {
+    "body": "rgb(251, 250, 244)",
+    "height": 720,
+    "iconWidths": [
+      20,
+      20,
+      20,
+      20,
+      20
+    ],
+    "images": 0,
+    "overflow": false,
+    "theme": "true",
+    "title": "作品",
+    "url": "http://127.0.0.1:4174/ai-youth/#discover",
+    "width": 1280
+  },
+  {
+    "body": "rgb(251, 250, 244)",
+    "height": 720,
+    "iconWidths": [
+      20,
+      20,
+      20,
+      20,
+      20
+    ],
+    "images": 0,
+    "overflow": false,
+    "theme": "true",
+    "title": "创作者",
+    "url": "http://127.0.0.1:4174/ai-youth/#creators",
+    "width": 1280
+  },
+  {
+    "body": "rgb(251, 250, 244)",
+    "height": 720,
+    "iconWidths": [
+      20,
+      20,
+      20,
+      20,
+      20
+    ],
+    "images": 0,
+    "overflow": false,
+    "theme": "true",
+    "title": "比赛",
+    "url": "http://127.0.0.1:4174/ai-youth/#events",
+    "width": 1280
+  },
+  {
+    "body": "rgb(251, 250, 244)",
+    "height": 720,
+    "iconWidths": [
+      20,
+      20,
+      20,
+      20,
+      20
+    ],
+    "images": 0,
+    "overflow": false,
+    "theme": "true",
+    "title": "我的个人空间",
+    "url": "http://127.0.0.1:4174/ai-youth/#archive",
+    "width": 1280
+  },
+  {
+    "body": "rgb(251, 250, 244)",
+    "height": 720,
+    "iconWidths": [
+      20,
+      20,
+      20,
+      20,
+      20
+    ],
+    "images": 0,
+    "overflow": false,
+    "theme": "true",
+    "title": "首页",
+    "url": "http://127.0.0.1:4174/ai-youth/#home",
+    "width": 1280
+  },
+  {
+    "body": "rgb(251, 250, 244)",
+    "height": 720,
+    "images": 0,
+    "overflow": false,
+    "theme": "true",
+    "title": "测试创作者",
+    "url": "http://127.0.0.1:4175/ai-youth/#archive",
+    "width": 1280
+  },
+  {
+    "body": "rgb(251, 250, 244)",
+    "height": 720,
+    "images": 0,
+    "overflow": false,
+    "theme": "true",
+    "title": "测试创作者",
+    "url": "http://127.0.0.1:4175/ai-youth/#archive/files",
+    "width": 1280
+  },
+  {
+    "body": "rgb(251, 250, 244)",
+    "height": 720,
+    "images": 0,
+    "overflow": false,
+    "theme": "true",
+    "title": "测试创作者",
+    "url": "http://127.0.0.1:4175/ai-youth/#archive/events",
+    "width": 1280
+  },
+  {
+    "body": "rgb(251, 250, 244)",
+    "height": 720,
+    "images": 0,
+    "overflow": false,
+    "theme": "true",
+    "title": "消息通知",
+    "url": "http://127.0.0.1:4175/ai-youth/#notifications",
+    "width": 1280
+  },
+  {
+    "body": "rgb(251, 250, 244)",
+    "height": 720,
+    "images": 0,
+    "overflow": false,
+    "theme": "true",
+    "title": "测试创作者",
+    "url": "http://127.0.0.1:4175/ai-youth/#my-posts",
+    "width": 1280
+  },
+  {
+    "body": "rgb(251, 250, 244)",
+    "height": 720,
+    "images": 0,
+    "overflow": false,
+    "theme": "true",
+    "title": "作品档案",
+    "url": "http://127.0.0.1:4175/ai-youth/#project/cccccccccccccccccccccccccccccccc",
+    "width": 1280
+  },
+  {
+    "body": "rgb(251, 250, 244)",
+    "height": 720,
+    "images": 0,
+    "overflow": false,
+    "theme": "true",
+    "title": "发帖子",
+    "url": "http://127.0.0.1:4175/ai-youth/#compose",
+    "width": 1280
+  },
+  {
+    "body": "rgb(251, 250, 244)",
+    "height": 720,
+    "images": 0,
+    "overflow": false,
+    "theme": "true",
+    "title": "生成参赛准备建议",
+    "url": "http://127.0.0.1:4175/ai-youth/#prepare",
+    "width": 1280
+  },
+  {
+    "body": "rgb(251, 250, 244)",
+    "height": 720,
+    "images": 0,
+    "overflow": false,
+    "theme": "true",
+    "title": "生成活动凭证草稿",
+    "url": "http://127.0.0.1:4175/ai-youth/#credential",
+    "width": 1280
+  },
+  {
+    "body": "rgb(251, 250, 244)",
+    "height": 720,
+    "images": 0,
+    "overflow": false,
+    "theme": "true",
+    "title": "隐私与使用说明",
+    "url": "http://127.0.0.1:4175/ai-youth/#privacy",
+    "width": 1280
+  },
+  {
+    "body": "rgb(251, 250, 244)",
+    "height": 524,
+    "iconWidths": [
+      23,
+      23,
+      23,
+      23,
+      23
+    ],
+    "overflow": false,
+    "theme": "true",
+    "title": "首页",
+    "url": "http://127.0.0.1:4175/ai-youth/#home",
+    "width": 935
+  },
+  {
+    "body": "rgb(251, 250, 244)",
+    "height": 524,
+    "iconWidths": [
+      23,
+      23,
+      23,
+      23,
+      23
+    ],
+    "overflow": false,
+    "theme": "true",
+    "title": "作品",
+    "url": "http://127.0.0.1:4175/ai-youth/#discover",
+    "width": 935
+  },
+  {
+    "body": "rgb(251, 250, 244)",
+    "height": 524,
+    "iconWidths": [
+      23,
+      23,
+      23,
+      23,
+      23
+    ],
+    "overflow": false,
+    "theme": "true",
+    "title": "创作者",
+    "url": "http://127.0.0.1:4175/ai-youth/#creators",
+    "width": 935
+  },
+  {
+    "body": "rgb(251, 250, 244)",
+    "height": 524,
+    "iconWidths": [
+      23,
+      23,
+      23,
+      23,
+      23
+    ],
+    "overflow": false,
+    "theme": "true",
+    "title": "比赛",
+    "url": "http://127.0.0.1:4175/ai-youth/#events",
+    "width": 935
+  },
+  {
+    "body": "rgb(251, 250, 244)",
+    "height": 524,
+    "iconWidths": [
+      23,
+      23,
+      23,
+      23,
+      23
+    ],
+    "overflow": false,
+    "theme": "true",
+    "title": "测试创作者",
+    "url": "http://127.0.0.1:4175/ai-youth/#archive",
+    "width": 935
+  },
+  {
+    "body": "rgb(251, 250, 244)",
+    "height": 524,
+    "iconWidths": [
+      23,
+      23,
+      23,
+      23,
+      23
+    ],
+    "overflow": false,
+    "theme": "true",
+    "title": "发帖子",
+    "url": "http://127.0.0.1:4175/ai-youth/#compose",
+    "width": 935
+  },
+  {
+    "body": "rgb(251, 250, 244)",
+    "height": 524,
+    "iconWidths": [
+      23,
+      23,
+      23,
+      23,
+      23
+    ],
+    "overflow": false,
+    "theme": "true",
+    "title": "生成参赛准备建议",
+    "url": "http://127.0.0.1:4175/ai-youth/#prepare",
+    "width": 935
+  },
+  {
+    "body": "rgb(251, 250, 244)",
+    "height": 524,
+    "iconWidths": [
+      23,
+      23,
+      23,
+      23,
+      23
+    ],
+    "overflow": false,
+    "theme": "true",
+    "title": "生成活动凭证草稿",
+    "url": "http://127.0.0.1:4175/ai-youth/#credential",
+    "width": 935
+  },
+  {
+    "body": "rgb(251, 250, 244)",
+    "height": 524,
+    "iconWidths": [
+      23,
+      23,
+      23,
+      23,
+      23
+    ],
+    "overflow": false,
+    "theme": "true",
+    "title": "消息通知",
+    "url": "http://127.0.0.1:4175/ai-youth/#notifications",
+    "width": 935
+  },
+  {
+    "body": "rgb(251, 250, 244)",
+    "height": 524,
+    "iconWidths": [
+      23,
+      23,
+      23,
+      23,
+      23
+    ],
+    "overflow": false,
+    "theme": "true",
+    "title": "个人中心",
+    "url": "http://127.0.0.1:4175/ai-youth/#profile",
+    "width": 935
+  },
+  {
+    "body": "rgb(251, 250, 244)",
+    "height": 524,
+    "iconWidths": [
+      23,
+      23,
+      23,
+      23,
+      23
+    ],
+    "overflow": false,
+    "theme": "true",
+    "title": "首页",
+    "url": "http://127.0.0.1:4175/ai-youth/#home",
+    "width": 615
+  },
+  {
+    "body": "rgb(251, 250, 244)",
+    "height": 524,
+    "iconWidths": [
+      23,
+      23,
+      23,
+      23,
+      23
+    ],
+    "overflow": false,
+    "theme": "true",
+    "title": "作品",
+    "url": "http://127.0.0.1:4175/ai-youth/#discover",
+    "width": 615
+  },
+  {
+    "body": "rgb(251, 250, 244)",
+    "height": 524,
+    "iconWidths": [
+      23,
+      23,
+      23,
+      23,
+      23
+    ],
+    "overflow": false,
+    "theme": "true",
+    "title": "创作者",
+    "url": "http://127.0.0.1:4175/ai-youth/#creators",
+    "width": 615
+  },
+  {
+    "body": "rgb(251, 250, 244)",
+    "height": 524,
+    "iconWidths": [
+      23,
+      23,
+      23,
+      23,
+      23
+    ],
+    "overflow": false,
+    "theme": "true",
+    "title": "比赛",
+    "url": "http://127.0.0.1:4175/ai-youth/#events",
+    "width": 615
+  },
+  {
+    "body": "rgb(251, 250, 244)",
+    "height": 524,
+    "iconWidths": [
+      23,
+      23,
+      23,
+      23,
+      23
+    ],
+    "overflow": false,
+    "theme": "true",
+    "title": "测试创作者",
+    "url": "http://127.0.0.1:4175/ai-youth/#archive",
+    "width": 615
+  },
+  {
+    "body": "rgb(251, 250, 244)",
+    "height": 524,
+    "iconWidths": [
+      23,
+      23,
+      23,
+      23,
+      23
+    ],
+    "overflow": false,
+    "theme": "true",
+    "title": "发帖子",
+    "url": "http://127.0.0.1:4175/ai-youth/#compose",
+    "width": 615
+  },
+  {
+    "body": "rgb(251, 250, 244)",
+    "height": 524,
+    "iconWidths": [
+      23,
+      23,
+      23,
+      23,
+      23
+    ],
+    "overflow": false,
+    "theme": "true",
+    "title": "生成参赛准备建议",
+    "url": "http://127.0.0.1:4175/ai-youth/#prepare",
+    "width": 615
+  },
+  {
+    "body": "rgb(251, 250, 244)",
+    "height": 524,
+    "iconWidths": [
+      23,
+      23,
+      23,
+      23,
+      23
+    ],
+    "overflow": false,
+    "theme": "true",
+    "title": "生成活动凭证草稿",
+    "url": "http://127.0.0.1:4175/ai-youth/#credential",
+    "width": 615
+  },
+  {
+    "body": "rgb(251, 250, 244)",
+    "height": 524,
+    "iconWidths": [
+      23,
+      23,
+      23,
+      23,
+      23
+    ],
+    "overflow": false,
+    "theme": "true",
+    "title": "消息通知",
+    "url": "http://127.0.0.1:4175/ai-youth/#notifications",
+    "width": 615
+  },
+  {
+    "body": "rgb(251, 250, 244)",
+    "height": 524,
+    "iconWidths": [
+      23,
+      23,
+      23,
+      23,
+      23
+    ],
+    "overflow": false,
+    "theme": "true",
+    "title": "个人中心",
+    "url": "http://127.0.0.1:4175/ai-youth/#profile",
+    "width": 615
+  },
+  {
+    "height": 720,
+    "images": 0,
+    "overflow": false,
+    "theme": "true",
+    "title": "迷你宇宙造物赛",
+    "url": "http://127.0.0.1:4175/ai-youth/#demo/event/demo-event-mini-universe",
+    "width": 1280
+  },
+  {
+    "height": 720,
+    "images": 0,
+    "overflow": false,
+    "theme": "true",
+    "title": "口袋星球：把作品装进口袋",
+    "url": "http://127.0.0.1:4175/ai-youth/#demo/project/demo-project-pocket-planet",
+    "width": 1280
+  },
+  {
+    "height": 720,
+    "images": 0,
+    "overflow": false,
+    "theme": "true",
+    "title": "口袋里的星球",
+    "url": "http://127.0.0.1:4175/ai-youth/#demo/creator/demo-creator-star",
+    "width": 1280
+  },
+  {
+    "height": 720,
+    "images": 0,
+    "overflow": false,
+    "theme": "true",
+    "url": "http://127.0.0.1:4175/ai-youth/#demo/post/demo-post-planet-progress",
+    "width": 1280
+  },
+  {
+    "height": 720,
+    "images": 0,
+    "overflow": false,
+    "theme": "true",
+    "title": "测试伙伴的作品与经历",
+    "url": "http://127.0.0.1:4175/ai-youth/#public/bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+    "width": 1280
+  },
+  {
+    "height": 720,
+    "images": 0,
+    "overflow": false,
+    "theme": "true",
+    "title": "搜索结果",
+    "url": "http://127.0.0.1:4175/ai-youth/#search?q=6767",
+    "width": 1280
+  },
+  {
+    "height": 720,
+    "images": 0,
+    "overflow": false,
+    "theme": "true",
+    "title": "我的收藏",
+    "url": "http://127.0.0.1:4175/ai-youth/#discover/bookmarks",
+    "width": 1280
+  }
+]

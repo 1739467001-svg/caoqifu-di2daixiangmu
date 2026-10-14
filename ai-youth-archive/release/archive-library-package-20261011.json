@@ -1,0 +1,277 @@
+{
+  "status": "prepared_not_deployed",
+  "preparedAt": "2026-10-11T05:15:09.964Z",
+  "target": "112.74.63.237",
+  "url": "https://112.74.63.237/ai-youth/",
+  "finalDeployablePackage": false,
+  "sourceDesign": "Standalone Scratch-style creation archive; two content entrances; youthful thick-line folders; seven saved colors; cache version 20261011-library-qstyle.",
+  "deploymentBlocked": "Aliyun logged-in command editor and subsequent login page repeatedly timed out. User refresh did not restore control. No server command was submitted; no deployment occurred.",
+  "generatedDirectory": "C:\\Users\\xyzaa\\Documents\\ChatGPT\\cqf极客网站\\ai-youth-archive\\deploy\\generated",
+  "bundlePath": "C:\\Users\\xyzaa\\Documents\\ChatGPT\\cqf极客网站\\ai-youth-archive\\deploy\\generated\\bundle.json.gz",
+  "bundleSha256": "1c7c219c1f6f51b07ed677a1cb383db17010e5b6a730d834cf8afdf15a54bcde",
+  "bundleBytes": 132171,
+  "manifestPath": "C:\\Users\\xyzaa\\Documents\\ChatGPT\\cqf极客网站\\ai-youth-archive\\deploy\\generated\\manifest.json",
+  "manifestSha256": "8ecd94857017605cdecfb9ff08eb2833314547e94498fe28d368f5091df35db3",
+  "transferSha256": "e5819fee7233a1591d2a08a97f6f468ac44abe8c27a84d0a674c965b274403ea",
+  "stagingDirectory": "/tmp/ai-youth-upload-e5819fee7233a1591d2a08a9",
+  "fileCount": 23,
+  "staticFileCount": 19,
+  "backendRuntimeFileCount": 3,
+  "serviceFileCount": 1,
+  "sourceMatchesCurrentFiles": true,
+  "transferEnvelopeVerified": true,
+  "personalAndTestDataExcluded": true,
+  "uploadCommandCount": 17,
+  "maxUploadCommandBase64Bytes": 16232,
+  "commands": [
+    {
+      "name": "001-upload.sh",
+      "bytes": 12172,
+      "base64EncodedBytes": 16232,
+      "sha256": "dd881d7f8707e9eb2881b9f0ba01d6cb109ce7e1173c6dfaa8dc5fc83c8a00e0"
+    },
+    {
+      "name": "002-upload.sh",
+      "bytes": 12172,
+      "base64EncodedBytes": 16232,
+      "sha256": "3564181094f9ca7451bb7c07e2de43c79919926cb411e13cdaea8e592d897ca9"
+    },
+    {
+      "name": "003-upload.sh",
+      "bytes": 12172,
+      "base64EncodedBytes": 16232,
+      "sha256": "780269afda91461966e2ef34483bee4db17128bd5b99289954a36bd00a1d1e6f"
+    },
+    {
+      "name": "004-upload.sh",
+      "bytes": 12172,
+      "base64EncodedBytes": 16232,
+      "sha256": "6d72ca8927d0a10f14f438085f206008453c0eb7bca3f2073c50e43d4c5bee89"
+    },
+    {
+      "name": "005-upload.sh",
+      "bytes": 12172,
+      "base64EncodedBytes": 16232,
+      "sha256": "0b737771a20cf690982c697891fc6e0b021944274634e869424b253137787d63"
+    },
+    {
+      "name": "006-upload.sh",
+      "bytes": 12172,
+      "base64EncodedBytes": 16232,
+      "sha256": "d1760af53bb3b415581d7cfde79d7d0ab532a9d40840d9fde36170394ec4cce7"
+    },
+    {
+      "name": "007-upload.sh",
+      "bytes": 12172,
+      "base64EncodedBytes": 16232,
+      "sha256": "02f924d511e504bc437ca817945a911b93252ebb79389b70c20eeac1ee8a2b60"
+    },
+    {
+      "name": "008-upload.sh",
+      "bytes": 12172,
+      "base64EncodedBytes": 16232,
+      "sha256": "30b51449b5e7fb6adacecb7c60d6c7b70bc32ee6a4773851843d123b43c05848"
+    },
+    {
+      "name": "009-upload.sh",
+      "bytes": 12172,
+      "base64EncodedBytes": 16232,
+      "sha256": "236b7bdaa0f338fb26abb9408d7ddb4fe57eca21ea87db25bcf68cc9cd957227"
+    },
+    {
+      "name": "010-upload.sh",
+      "bytes": 12173,
+      "base64EncodedBytes": 16232,
+      "sha256": "72c0ecd48b6c7215f4f581aaec453e4cc785b6f0208f444e1879d75c39308dd8"
+    },
+    {
+      "name": "011-upload.sh",
+      "bytes": 12173,
+      "base64EncodedBytes": 16232,
+      "sha256": "9412263d9188b2b8147419dd174e2073cbcc6fe99617837dcae13f6c0cf8416d"
+    },
+    {
+      "name": "012-upload.sh",
+      "bytes": 12173,
+      "base64EncodedBytes": 16232,
+      "sha256": "e6f53282262db946010f5efb89eb534a974c87c240391315cb4f30004ede7837"
+    },
+    {
+      "name": "013-upload.sh",
+      "bytes": 12173,
+      "base64EncodedBytes": 16232,
+      "sha256": "541c8e8ee6b832bb086008aeb9c69ad5c9d4e9a3d9333853c58de2400cf78c66"
+    },
+    {
+      "name": "014-upload.sh",
+      "bytes": 12173,
+      "base64EncodedBytes": 16232,
+      "sha256": "f8e7a6ad69b3c003d6e2220f3675f9db3827a71c7e1ede67cea01e37f140d286"
+    },
+    {
+      "name": "015-upload.sh",
+      "bytes": 12173,
+      "base64EncodedBytes": 16232,
+      "sha256": "9eeb5a1f141700026cb08f3051c67339c7d254e8a34ce31a2a280c67546d4057"
+    },
+    {
+      "name": "016-upload.sh",
+      "bytes": 12173,
+      "base64EncodedBytes": 16232,
+      "sha256": "e3af52b8fdbc70e4301c152f19a10c1aa0b9f200b3530f2dd8befbbdc726c267"
+    },
+    {
+      "name": "017-upload.sh",
+      "bytes": 3105,
+      "base64EncodedBytes": 4140,
+      "sha256": "9383ca8277a7834b7b4a3b93ac4d0f0e115c04596bd112948aaa62405c706f72"
+    }
+  ],
+  "extraCommands": {
+    "preflight-command.sh": {
+      "bytes": 3345,
+      "base64EncodedBytes": 4460,
+      "sha256": "4da843c44b11061eedad9c794e50e7c180e14665e9106d1cb7183345ed37deaf"
+    },
+    "verify-and-plan.sh": {
+      "bytes": 1395,
+      "base64EncodedBytes": 1860,
+      "sha256": "f8f428eb487a9267572562df0567bb3d1cae66bde1d1205d390d8d29f408f06c"
+    },
+    "apply-release.sh": {
+      "bytes": 243,
+      "base64EncodedBytes": 324,
+      "sha256": "1776dc825ede3d4b28436fe42fd7a253f9c8151bcdb3435e587bbb5ea3d79ff9"
+    }
+  },
+  "files": {
+    "dist/app.js": {
+      "sha256": "7d1243ae1d831e8ef856f44212aa25bf558e98dbdfdce57ce0dbabc6dd82e01f",
+      "bytes": 100357
+    },
+    "dist/archive-library.css": {
+      "sha256": "cc5eebf1f87730b02160964e8cc88df777bde163af90b442928b026e409e65b4",
+      "bytes": 43358
+    },
+    "dist/archive-library.js": {
+      "sha256": "1ef95dd812eb15d2ff03b11a91ffcf90af60415aff9457a6ae59fcb7459acca4",
+      "bytes": 51838
+    },
+    "dist/assets/demo/event-6767.svg": {
+      "sha256": "c735528daac7ef0f57808f10c3bfaf5b940939711b9d1130e15917057df89cda",
+      "bytes": 4285
+    },
+    "dist/assets/demo/event-mini-universe.svg": {
+      "sha256": "46fc174e4ec5ed08788f1c492f15b65b5376ece0dc28d67f3b8c28eacce97da1",
+      "bytes": 4911
+    },
+    "dist/assets/demo/event-weekend.svg": {
+      "sha256": "074388c6ea5fe36f9144e4e0fa955ce5acd27b91794e8ae091f4791c03e7e7e0",
+      "bytes": 4180
+    },
+    "dist/assets/demo/work-focus-island.svg": {
+      "sha256": "0e9f1566cc792b7b5bc79054e693ba768f2aee73b8a311036b2adc397ad80107",
+      "bytes": 4349
+    },
+    "dist/assets/demo/work-idea-wall.svg": {
+      "sha256": "aecff117037467490257cb2e557964ef4ac5f92002aa72f5d635a2ea7534160a",
+      "bytes": 4687
+    },
+    "dist/assets/demo/work-pocket-planet.svg": {
+      "sha256": "ae25c6a71041244b4340ee24257741317a18e0b279d02fd13205e30abb817176",
+      "bytes": 3836
+    },
+    "dist/aux-theme.css": {
+      "sha256": "518e21d7c30751c6cda1b2e325819e089bec726a09df51cc230133ee788322ae",
+      "bytes": 15679
+    },
+    "dist/demo-content.js": {
+      "sha256": "02333c41cf849385bacd6d4aa5ceb8cc786872bdd64274c0fddae0c65a082f35",
+      "bytes": 13460
+    },
+    "dist/demo-ui.js": {
+      "sha256": "6135f75838a661eb2f8d2f1b0c0ccbc0d39a93f6f863daca60eb42f5a3eba981",
+      "bytes": 8316
+    },
+    "dist/hash.js": {
+      "sha256": "21c56f0c434b77f33c25ccb60b196cd90dac04790565eb6b42dc4baddd36bfab",
+      "bytes": 1915
+    },
+    "dist/home-theme.css": {
+      "sha256": "6f2b49cf0b22e8b98d28266d7e6624ed15bfd8c8217b537791ec8af7fe219902",
+      "bytes": 29563
+    },
+    "dist/index.html": {
+      "sha256": "13325ae2a6d79f3fc68281a942e113bdc15bc93277284a9e9dd2576f20443bde",
+      "bytes": 4667
+    },
+    "dist/mark.svg": {
+      "sha256": "98833e2b16ad0a5f8c906c7eb2133ddb62886e8a6ab2840dd96f0406c6b12bf8",
+      "bytes": 399
+    },
+    "dist/style.css": {
+      "sha256": "9798384bdb918530c7619432f29979d28c18cc54886d24b0a82970dd5578a7bf",
+      "bytes": 63844
+    },
+    "dist/tools.js": {
+      "sha256": "e75ad2afc8588892be02764e127329d5b2e3ec7469d5123b9e7bb174495a7c45",
+      "bytes": 15644
+    },
+    "dist/workspace.css": {
+      "sha256": "50f6380e9d3ff09548113e4b34f95a2642877e5464af573aa95e84fe8868669c",
+      "bytes": 53615
+    },
+    "backend/server.py": {
+      "sha256": "05ae7013d28b155d5ced09603499499f2b76824e8918f6aeb086f16d110a57e8",
+      "bytes": 62609
+    },
+    "backend/manage.py": {
+      "sha256": "50308ba6019c991505f61d1ec2aa30d9981f6b9f742b34483e8c98f8d632a76f",
+      "bytes": 3034
+    },
+    "backend/community_comments.py": {
+      "sha256": "4e52366f0ac97c7d756e3a964364a5093ec15c12c7020c3bcd24a8ad4e1bbf18",
+      "bytes": 4518
+    },
+    "deploy/ai-youth-archive.service": {
+      "sha256": "e1f370069bb6aad53ef06064a1b708176e80952cefca92af0d3c1428de55e394",
+      "bytes": 1113
+    }
+  },
+  "staticAcceptanceManifestPath": "C:\\Users\\xyzaa\\Documents\\ChatGPT\\cqf极客网站\\ai-youth-archive\\release\\archive-library-static-manifest-20261011.json",
+  "staticAcceptanceManifestSha256": "e73f708f960d3583ec218dd6c5fb38e884691e494e166ccdbfa39d16cbbd69d5",
+  "readOnlyPublicBaseline": {
+    "path": "C:\\Users\\xyzaa\\Documents\\ChatGPT\\cqf极客网站\\ai-youth-archive\\release\\library-deployment-baseline-20261011.json",
+    "sha256": "f6f3b0a6d011fd072021d02acabfcd9e2fcd14bf70e78128f7ebb35cd4e4e9f7",
+    "checkedAt": "2026-10-11T05:14:41.772433+00:00",
+    "tlsVerified": true,
+    "checks": [
+      {
+        "path": "/",
+        "status": 410,
+        "bytes": 152,
+        "sha256": "6f3e8074b56b03df96970db1432b6c885fc930529d2d5d6e13efe7dc643ed6b7"
+      },
+      {
+        "path": "/ai-youth/",
+        "status": 200,
+        "bytes": 4517,
+        "sha256": "5b0453d6ddd379eba5fedc0867f177c1119462ec4fb9e7b51095d78685d4774b"
+      },
+      {
+        "path": "/ai-youth/api/status",
+        "status": 200,
+        "bytes": 151,
+        "sha256": "ca7447b3b7db09a6e3e5416ffe0e2204969a59c3156a33c8b59c8c27e17f67c5",
+        "ready": true
+      }
+    ]
+  },
+  "offlineDeploymentTests": {
+    "passed": 6,
+    "total": 6,
+    "notes": "All deployment checks passed using workspace-only TemporaryDirectory."
+  },
+  "scope": "Final current local source code-only package. Read-only unauthenticated HTTPS baseline recorded; no server login, submitted command, or deployment performed by this preparation task.",
+  "deploymentHold": "Superseded: user requested discovery-home visual styling and internal opening without URL change. UI/source still being updated; do not deploy this old Q-style bundle. Regenerate after source freeze."
+}

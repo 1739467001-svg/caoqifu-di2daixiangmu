@@ -1,0 +1,26 @@
+{
+  "origin": "https://112.74.63.237",
+  "checkedAt": "2026-10-11T05:14:41.772433+00:00",
+  "tlsVerified": true,
+  "checks": [
+    {
+      "path": "/",
+      "status": 410,
+      "bytes": 152,
+      "sha256": "6f3e8074b56b03df96970db1432b6c885fc930529d2d5d6e13efe7dc643ed6b7"
+    },
+    {
+      "path": "/ai-youth/",
+      "status": 200,
+      "bytes": 4517,
+      "sha256": "5b0453d6ddd379eba5fedc0867f177c1119462ec4fb9e7b51095d78685d4774b"
+    },
+    {
+      "path": "/ai-youth/api/status",
+      "status": 200,
+      "bytes": 151,
+      "sha256": "ca7447b3b7db09a6e3e5416ffe0e2204969a59c3156a33c8b59c8c27e17f67c5",
+      "ready": true
+    }
+  ]
+}

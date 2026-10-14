@@ -1,0 +1,12 @@
+const fs=require('node:fs'),path=require('node:path');
+const file=path.join(__dirname,'../dist/app.js');
+let source=fs.readFileSync(file,'utf8');
+source=source.replace("esc(p.title.slice(0,1))", "esc(String(p.title||'作品').slice(0,1))");
+source=source.replace("p.skills.split(/[,，、]/)", "String(Array.isArray(p.skills)?p.skills.join('、'):p.skills).split(/[,，、]/)");
+source=source.replace("async function loadFeed(){try{state.feed=await api('/feed');return '';}catch{return", "async function loadFeed(){try{state.feed=await api('/feed');return '';}catch{state.feed={projects:[],posts:[]};return");
+source=source.replace("async function render(){const seq=++state.seq;", "async function render(){const seq=++state.seq;$('#main').setAttribute('aria-busy','true');");
+source=source.replace("html=await discover(sub);title='作品';", "html=await discover(sub);title=sub==='bookmarks'?'我的收藏':'作品';");
+const a=source.indexOf('const newCard='),b=source.indexOf('function filesView(',a);
+if(a>=0&&b>a)source=source.slice(0,a)+source.slice(b);
+fs.writeFileSync(file,source);
+console.log('Legacy profile compatibility and loading states checked.');

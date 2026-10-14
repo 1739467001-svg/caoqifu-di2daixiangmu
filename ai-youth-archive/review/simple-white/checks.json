@@ -1,0 +1,107 @@
+[
+  {
+    "bg": "rgb(255, 255, 255)",
+    "route": "#archive/works",
+    "scrollWidth": 600,
+    "tabs": [
+      "作品",
+      "资料文件",
+      "参赛经历",
+      "我的动态"
+    ],
+    "title": "我的 · 发现",
+    "width": 615
+  },
+  {
+    "bg": "rgb(255, 255, 255)",
+    "route": "#archive/files",
+    "scrollWidth": 600,
+    "tabs": [
+      "作品",
+      "资料文件",
+      "参赛经历",
+      "我的动态"
+    ],
+    "title": "我的 · 发现",
+    "width": 615
+  },
+  {
+    "bg": "rgb(255, 255, 255)",
+    "route": "#archive/events",
+    "scrollWidth": 600,
+    "tabs": [
+      "作品",
+      "资料文件",
+      "参赛经历",
+      "我的动态"
+    ],
+    "title": "我的参赛资料 · 发现",
+    "width": 615
+  },
+  {
+    "bg": "rgb(255, 255, 255)",
+    "route": "#archive/posts",
+    "scrollWidth": 600,
+    "tabs": [
+      "作品",
+      "资料文件",
+      "参赛经历",
+      "我的动态"
+    ],
+    "title": "我的动态 · 发现",
+    "width": 615
+  },
+  {
+    "bg": "rgb(255, 255, 255)",
+    "route": "#discover/bookmarks",
+    "scrollWidth": 600,
+    "tabs": [
+      "作品",
+      "资料文件",
+      "参赛经历",
+      "我的动态"
+    ],
+    "title": "我的收藏 · 发现",
+    "width": 615
+  },
+  {
+    "bg": "rgb(255, 255, 255)",
+    "route": "#notifications",
+    "scrollWidth": 600,
+    "tabs": [
+      "作品",
+      "资料文件",
+      "参赛经历",
+      "我的动态"
+    ],
+    "title": "消息 · 发现",
+    "width": 615
+  },
+  {
+    "bg": "rgb(255, 255, 255)",
+    "route": "#profile",
+    "scrollWidth": 600,
+    "tabs": [
+      "登录账号",
+      "创建账号"
+    ],
+    "title": "个人中心 · 发现",
+    "width": 615
+  },
+  {
+    "bg": "rgb(255, 255, 255)",
+    "route": "#prepare",
+    "scrollWidth": 600,
+    "tabs": [],
+    "title": "参赛准备 · 发现",
+    "width": 615
+  },
+  {
+    "bg": "rgb(255, 255, 255)",
+    "route": "#credential",
+    "scrollWidth": 600,
+    "tabs": [],
+    "title": "凭证草稿 · 发现",
+    "width": 615
+  }
+]

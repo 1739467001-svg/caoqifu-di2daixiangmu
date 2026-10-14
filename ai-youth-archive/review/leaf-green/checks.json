@@ -1,0 +1,23 @@
+[
+  {
+    "background": "rgb(255, 255, 255)",
+    "otherColors": [],
+    "route": "#home",
+    "scrollWidth": 1265,
+    "width": 1280
+  },
+  {
+    "background": "rgb(255, 255, 255)",
+    "otherColors": [],
+    "route": "#archive",
+    "scrollWidth": 1265,
+    "width": 1280
+  },
+  {
+    "background": "rgb(255, 255, 255)",
+    "otherColors": [],
+    "route": "#events",
+    "scrollWidth": 1265,
+    "width": 1280
+  }
+]

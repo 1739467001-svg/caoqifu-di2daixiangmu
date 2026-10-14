@@ -1,0 +1,47 @@
+{
+  "references": [
+    {
+      "type": "主界面",
+      "source": "https://www.onlinegamer.jp/feature/sp-story-recommend/",
+      "image": "https://image.onlinegamer.jp/img/game/10000/1000001875/4.jpg",
+      "classification": "游戏媒体转载的原版截图，非官方发布图",
+      "observed": "左右不同透明深浅的矩形面板，背景可从部分菜单透出；许多正文区域较不透明，不能称所有面板均透明"
+    },
+    {
+      "type": "干员档案",
+      "source": "https://arknights-kouryaku.com/2020/03/27/flamebringer/",
+      "image": "https://arknights-kouryaku.com/wp-content/uploads/2020/03/20200327-01_03.jpg",
+      "classification": "攻略作者实玩记录的原版档案画面，非官方发布图",
+      "observed": "角色与几何底图能透过资料区；深色条分段，正文保持实色；截屏无法精确确定alpha值"
+    },
+    {
+      "type": "活动",
+      "source": "https://yterapokemon.hatenablog.com/entry/arknights-path-of-life",
+      "image": "https://cdn-ak.f.st-hatena.com/images/fotolife/y/ytera22/20250104/20250104114052.png",
+      "classification": "玩家活动体验文章中的原版《生存航路》截图，非官方发布图",
+      "observed": "青色背景光感、边缘暗化、轻薄横向菜单条让背景仍是主视觉；不复制颜色、角色或素材"
+    },
+    {
+      "type": "展开菜单补充",
+      "source": "https://appgameui.hatenablog.com/entry/2020/02/07/000000",
+      "image": "https://cdn-ak.f.st-hatena.com/images/fotolife/a/appgameui/20200202/20200202215727.png",
+      "classification": "作者记录实际游戏菜单行为的截图，不是设计稿；从干员页面展开，不冒充首页",
+      "observed": "深色遮罩往底边逐渐透明，下方干员面板仍可见；导航文字和图标实色"
+    }
+  ],
+  "excluded": [
+    {
+      "url": "https://github.com/mashirozx/arknights-ui",
+      "reason": "作者自称H5复刻，排除原版参考"
+    },
+    {
+      "type": "所有《终末地》截图",
+      "reason": "并非本轮指定原游戏"
+    },
+    {
+      "type": "网友重新设计或生成图",
+      "reason": "不作为原版截图"
+    }
+  ],
+  "method": "通过CUA实际打开各原图并观察截图，未下载原图至网站、未把游戏素材放入产品"
+}

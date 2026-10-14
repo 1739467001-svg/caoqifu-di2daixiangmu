@@ -1,0 +1,5 @@
+[Unit]
+Description=Renew Tanxun HTTPS certificate
+[Service]
+Type=oneshot
+ExecStart=/opt/tanxun/certbot/bin/certbot renew --cert-name 112.74.63.237 --quiet --deploy-hook /etc/letsencrypt/renewal-hooks/deploy/tanxun-nginx

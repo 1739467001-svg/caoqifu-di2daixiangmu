@@ -1,0 +1,13 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 720
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Microsoft YaHei,25,&H00FFFFFF,&H00FFFFFF,&H001C3629,&H001C3629,0,0,0,0,100,100,0,0,1,1,0,2,40,40,10,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.35,0:00:02.03,Default,,0,0,0,,先选择内容，
+Dialogue: 0,0:00:02.03,0:00:04.27,Default,,0,0,0,,再检查公开预览。
+Dialogue: 0,0:00:04.27,0:00:07.63,Default,,0,0,0,,原型不会自动发帖或上链，
+Dialogue: 0,0:00:07.63,0:00:10.71,Default,,0,0,0,,主站公开内容还要审核。

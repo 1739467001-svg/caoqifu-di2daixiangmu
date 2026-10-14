@@ -1,0 +1,12 @@
+{
+  "target": "112.74.63.237",
+  "url": "https://112.74.63.237/ai-youth/",
+  "hashes": {
+    "index.html": "bb123fc138d24533e5041d2496a068616be27e625aac20d128a72e77f6cb5dfe",
+    "app.js": "fdfca7b2c1058591ab6667511d128d99881f5b664a1f7b22da24a0f73cb84f30",
+    "style.css": "210398a61a68eb7a0bbee57b07d9d85403163aa83b3d43dfe12395b7b0f854d1",
+    "hash.js": "21c56f0c434b77f33c25ccb60b196cd90dac04790565eb6b42dc4baddd36bfab"
+  },
+  "stageBytes": 10268,
+  "finishBytes": 10337
+}

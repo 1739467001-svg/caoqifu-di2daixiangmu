@@ -1,0 +1,270 @@
+{
+  "origin": "https://112.74.63.237",
+  "checkedAt": "2026-10-11T03:33:53.139592+00:00",
+  "tlsVerified": true,
+  "bundleSha256": "559a7936369b5573c8e999bd69851a4cc9eae2a23c05ab795b26e1ff01b672b7",
+  "publicAssetsChecked": 17,
+  "ok": true,
+  "checks": [
+    {
+      "path": "/",
+      "status": 410,
+      "bytes": 152,
+      "sha256": "6f3e8074b56b03df96970db1432b6c885fc930529d2d5d6e13efe7dc643ed6b7",
+      "ok": true
+    },
+    {
+      "path": "/ai-youth/api/status",
+      "status": 200,
+      "bytes": 151,
+      "sha256": "ca7447b3b7db09a6e3e5416ffe0e2204969a59c3156a33c8b59c8c27e17f67c5",
+      "ready": true,
+      "ok": true
+    },
+    {
+      "path": "/ai-youth/app.js",
+      "status": 200,
+      "bytes": 99041,
+      "sha256": "c50aa10cb78c055ea1a517becf0b54f8883035420dbc11825dbfbcccde715430",
+      "ok": true
+    },
+    {
+      "path": "/ai-youth/assets/demo/event-6767.svg",
+      "status": 200,
+      "bytes": 4285,
+      "sha256": "c735528daac7ef0f57808f10c3bfaf5b940939711b9d1130e15917057df89cda",
+      "ok": true
+    },
+    {
+      "path": "/ai-youth/assets/demo/event-mini-universe.svg",
+      "status": 200,
+      "bytes": 4911,
+      "sha256": "46fc174e4ec5ed08788f1c492f15b65b5376ece0dc28d67f3b8c28eacce97da1",
+      "ok": true
+    },
+    {
+      "path": "/ai-youth/assets/demo/event-weekend.svg",
+      "status": 200,
+      "bytes": 4180,
+      "sha256": "074388c6ea5fe36f9144e4e0fa955ce5acd27b91794e8ae091f4791c03e7e7e0",
+      "ok": true
+    },
+    {
+      "path": "/ai-youth/assets/demo/work-focus-island.svg",
+      "status": 200,
+      "bytes": 4349,
+      "sha256": "0e9f1566cc792b7b5bc79054e693ba768f2aee73b8a311036b2adc397ad80107",
+      "ok": true
+    },
+    {
+      "path": "/ai-youth/assets/demo/work-idea-wall.svg",
+      "status": 200,
+      "bytes": 4687,
+      "sha256": "aecff117037467490257cb2e557964ef4ac5f92002aa72f5d635a2ea7534160a",
+      "ok": true
+    },
+    {
+      "path": "/ai-youth/assets/demo/work-pocket-planet.svg",
+      "status": 200,
+      "bytes": 3836,
+      "sha256": "ae25c6a71041244b4340ee24257741317a18e0b279d02fd13205e30abb817176",
+      "ok": true
+    },
+    {
+      "path": "/ai-youth/aux-theme.css",
+      "status": 200,
+      "bytes": 15679,
+      "sha256": "518e21d7c30751c6cda1b2e325819e089bec726a09df51cc230133ee788322ae",
+      "ok": true
+    },
+    {
+      "path": "/ai-youth/demo-content.js",
+      "status": 200,
+      "bytes": 13460,
+      "sha256": "02333c41cf849385bacd6d4aa5ceb8cc786872bdd64274c0fddae0c65a082f35",
+      "ok": true
+    },
+    {
+      "path": "/ai-youth/demo-ui.js",
+      "status": 200,
+      "bytes": 8316,
+      "sha256": "6135f75838a661eb2f8d2f1b0c0ccbc0d39a93f6f863daca60eb42f5a3eba981",
+      "ok": true
+    },
+    {
+      "path": "/ai-youth/hash.js",
+      "status": 200,
+      "bytes": 1915,
+      "sha256": "21c56f0c434b77f33c25ccb60b196cd90dac04790565eb6b42dc4baddd36bfab",
+      "ok": true
+    },
+    {
+      "path": "/ai-youth/home-theme.css",
+      "status": 200,
+      "bytes": 29563,
+      "sha256": "6f2b49cf0b22e8b98d28266d7e6624ed15bfd8c8217b537791ec8af7fe219902",
+      "ok": true
+    },
+    {
+      "path": "/ai-youth/index.html",
+      "status": 200,
+      "bytes": 4517,
+      "sha256": "5b0453d6ddd379eba5fedc0867f177c1119462ec4fb9e7b51095d78685d4774b",
+      "ok": true
+    },
+    {
+      "path": "/ai-youth/mark.svg",
+      "status": 200,
+      "bytes": 399,
+      "sha256": "98833e2b16ad0a5f8c906c7eb2133ddb62886e8a6ab2840dd96f0406c6b12bf8",
+      "ok": true
+    },
+    {
+      "path": "/ai-youth/style.css",
+      "status": 200,
+      "bytes": 63844,
+      "sha256": "9798384bdb918530c7619432f29979d28c18cc54886d24b0a82970dd5578a7bf",
+      "ok": true
+    },
+    {
+      "path": "/ai-youth/tools.js",
+      "status": 200,
+      "bytes": 15644,
+      "sha256": "e75ad2afc8588892be02764e127329d5b2e3ec7469d5123b9e7bb174495a7c45",
+      "ok": true
+    },
+    {
+      "path": "/ai-youth/workspace.css",
+      "status": 200,
+      "bytes": 52010,
+      "sha256": "50a1d759f7084e9d36f001668e1de19862af8ef856e9739ceb4089c4bd9bfc6b",
+      "ok": true
+    },
+    {
+      "path": "/ai-youth/api/projects",
+      "status": 401,
+      "bytes": 51,
+      "sha256": "ff03cc0c34141ec49a075fd9c4e2535a8daa54e9ce72748f6190b9b0c5a64662",
+      "ok": true
+    },
+    {
+      "path": "/ai-youth/api/files",
+      "status": 401,
+      "bytes": 51,
+      "sha256": "ff03cc0c34141ec49a075fd9c4e2535a8daa54e9ce72748f6190b9b0c5a64662",
+      "ok": true
+    },
+    {
+      "path": "/ai-youth/api/posts",
+      "status": 401,
+      "bytes": 51,
+      "sha256": "ff03cc0c34141ec49a075fd9c4e2535a8daa54e9ce72748f6190b9b0c5a64662",
+      "ok": true
+    },
+    {
+      "path": "/ai-youth/api/notifications",
+      "status": 401,
+      "bytes": 51,
+      "sha256": "ff03cc0c34141ec49a075fd9c4e2535a8daa54e9ce72748f6190b9b0c5a64662",
+      "ok": true
+    },
+    {
+      "path": "/ai-youth/api/chats",
+      "status": 401,
+      "bytes": 51,
+      "sha256": "ff03cc0c34141ec49a075fd9c4e2535a8daa54e9ce72748f6190b9b0c5a64662",
+      "ok": true
+    },
+    {
+      "path": "/ai-youth/api/export",
+      "status": 401,
+      "bytes": 51,
+      "sha256": "ff03cc0c34141ec49a075fd9c4e2535a8daa54e9ce72748f6190b9b0c5a64662",
+      "ok": true
+    },
+    {
+      "path": "/ai-youth/api/comments/mine",
+      "status": 401,
+      "bytes": 51,
+      "sha256": "d562d6d0d697d0395088956dce293c8b232c97f7f90532669de33048f6ae10e9",
+      "ok": true
+    },
+    {
+      "path": "/ai-youth/backend/server.py",
+      "status": 404,
+      "bytes": 162,
+      "sha256": "766c1d6bcb81d3e983fb7adbc19c616d7fc01dafb7893738edc242e2adc59c07",
+      "ok": true
+    },
+    {
+      "path": "/ai-youth/server.py",
+      "status": 404,
+      "bytes": 162,
+      "sha256": "766c1d6bcb81d3e983fb7adbc19c616d7fc01dafb7893738edc242e2adc59c07",
+      "ok": true
+    },
+    {
+      "path": "/ai-youth/backend/manage.py",
+      "status": 404,
+      "bytes": 162,
+      "sha256": "766c1d6bcb81d3e983fb7adbc19c616d7fc01dafb7893738edc242e2adc59c07",
+      "ok": true
+    },
+    {
+      "path": "/ai-youth/manage.py",
+      "status": 404,
+      "bytes": 162,
+      "sha256": "766c1d6bcb81d3e983fb7adbc19c616d7fc01dafb7893738edc242e2adc59c07",
+      "ok": true
+    },
+    {
+      "path": "/ai-youth/community_comments.py",
+      "status": 404,
+      "bytes": 162,
+      "sha256": "766c1d6bcb81d3e983fb7adbc19c616d7fc01dafb7893738edc242e2adc59c07",
+      "ok": true
+    },
+    {
+      "path": "/ai-youth/.private-notes/",
+      "status": 404,
+      "bytes": 162,
+      "sha256": "766c1d6bcb81d3e983fb7adbc19c616d7fc01dafb7893738edc242e2adc59c07",
+      "ok": true
+    },
+    {
+      "path": "/ai-youth/AGENTS.md",
+      "status": 404,
+      "bytes": 162,
+      "sha256": "766c1d6bcb81d3e983fb7adbc19c616d7fc01dafb7893738edc242e2adc59c07",
+      "ok": true
+    },
+    {
+      "path": "/ai-youth/.env",
+      "status": 404,
+      "bytes": 162,
+      "sha256": "766c1d6bcb81d3e983fb7adbc19c616d7fc01dafb7893738edc242e2adc59c07",
+      "ok": true
+    },
+    {
+      "path": "/ai-youth/runtime.env",
+      "status": 404,
+      "bytes": 162,
+      "sha256": "766c1d6bcb81d3e983fb7adbc19c616d7fc01dafb7893738edc242e2adc59c07",
+      "ok": true
+    },
+    {
+      "path": "/ai-youth/archive.sqlite3",
+      "status": 404,
+      "bytes": 162,
+      "sha256": "766c1d6bcb81d3e983fb7adbc19c616d7fc01dafb7893738edc242e2adc59c07",
+      "ok": true
+    },
+    {
+      "path": "/ai-youth/deploy/generated/manifest.json",
+      "status": 404,
+      "bytes": 162,
+      "sha256": "766c1d6bcb81d3e983fb7adbc19c616d7fc01dafb7893738edc242e2adc59c07",
+      "ok": true
+    }
+  ]
+}

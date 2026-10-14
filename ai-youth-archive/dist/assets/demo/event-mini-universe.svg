@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">迷你宇宙造物赛演示海报</title>
+  <desc id="desc">黑色背景上的绿色立体微型世界，轨道、像素星星、阶梯与漂浮方块组成原创造物场景。</desc>
+  <defs>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0V48" fill="none" stroke="#fff" stroke-opacity=".06"/></pattern>
+    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.5" fill="#202320" opacity=".13"/></pattern>
+    <clipPath id="round"><rect width="960" height="540" rx="0"/></clipPath>
+  </defs>
+  <g clip-path="url(#round)">
+    <rect width="960" height="540" fill="#202320"/><rect width="960" height="540" fill="url(#grid)"/>
+    <circle cx="735" cy="228" r="182" fill="none" stroke="#fff" stroke-opacity=".11" stroke-width="1.5"/>
+    <ellipse cx="684" cy="303" rx="265" ry="93" transform="rotate(-18 684 303)" fill="none" stroke="#9ddb69" stroke-opacity=".65" stroke-width="2" stroke-dasharray="5 9"/>
+    <ellipse cx="684" cy="303" rx="218" ry="122" transform="rotate(20 684 303)" fill="none" stroke="#fff" stroke-opacity=".22" stroke-width="2"/>
+    <path d="M76 75h26m-13-13v26M884 143h18m-9-9v18M445 331h20m-10-10v20M788 456h22m-11-11v22" stroke="#9ddb69" stroke-width="4"/>
+    <g fill="#fff"><rect x="372" y="80" width="5" height="5"/><rect x="473" y="203" width="4" height="4"/><rect x="851" y="386" width="4" height="4"/><rect x="420" y="464" width="5" height="5"/><rect x="802" y="63" width="4" height="4"/><rect x="884" y="259" width="4" height="4"/></g>
+    <rect x="58" y="43" width="132" height="32" rx="16" fill="#9ddb69"/>
+    <text x="124" y="65" text-anchor="middle" fill="#202320" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="15" font-weight="700">一起造点新东西</text>
+    <g font-family="Microsoft YaHei, PingFang SC, sans-serif" fill="#fff" font-weight="900"><text x="58" y="158" font-size="54">迷你宇宙</text><text x="58" y="224" font-size="54">造物赛</text></g>
+    <path d="M60 248h164" stroke="#9ddb69" stroke-width="7"/>
+    <text x="60" y="285" fill="#fff" fill-opacity=".7" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="19">一个点子，长成一个世界。</text>
+    <g transform="translate(505 110)">
+      <path d="M35 253 184 181 338 255 191 334Z" fill="#101210"/>
+      <path d="M28 202 177 130 330 204 183 276Z" fill="#c5eea8" stroke="#202320" stroke-width="3"/>
+      <path d="M28 202v55l155 74v-55Z" fill="#82bf51" stroke="#202320" stroke-width="3"/>
+      <path d="M183 276v55l147-72v-55Z" fill="#5e8f3b" stroke="#202320" stroke-width="3"/>
+      <path d="M28 202 177 130 330 204 183 276Z" fill="url(#dots)"/>
+      <path d="m89 187 72-35 63 31-72 35Z" fill="#fff" stroke="#202320" stroke-width="3"/>
+      <path d="M89 187v18l63 31v-18Zm63 31v18l72-35v-18Z" fill="#e8ece4" stroke="#202320" stroke-width="3"/>
+      <path d="m125 126 57-28 54 27-58 28Z" fill="#fff" stroke="#202320" stroke-width="3"/>
+      <path d="M125 126v52l53 26v-51Z" fill="#9ddb69" stroke="#202320" stroke-width="3"/>
+      <path d="M178 153v51l58-27v-52Z" fill="#7bb34f" stroke="#202320" stroke-width="3"/>
+      <path d="m136 130 22 11v25l-22-11Zm50 30 27-13v18l-27 13Z" fill="#202320"/>
+      <path d="m153 77 29-14 29 14-29 14Z" fill="#9ddb69" stroke="#202320" stroke-width="3"/>
+      <path d="M153 77v24l29 14V91Zm29 14v24l29-14V77Z" fill="#fff" stroke="#202320" stroke-width="3"/>
+      <g stroke="#202320" stroke-width="3"><path d="m240 182 28-14 28 14-28 14Z" fill="#202320"/><path d="M240 182v39l28 14v-39Z" fill="#fff"/><path d="M268 196v39l28-14v-39Z" fill="#9ddb69"/></g>
+      <path d="m55 205 24-12 24 12-24 12Z" fill="#202320"/><path d="M59 220 79 230 99 220M59 230 79 240 99 230M59 240 79 250 99 240" fill="none" stroke="#fff" stroke-width="4"/>
+      <path d="m280 262 18-9 19 9-18 10Z" fill="#fff"/>
+      <path d="m108 295 16 8 16-8" fill="none" stroke="#fff" stroke-width="4"/>
+    </g>
+    <g transform="translate(744 86) rotate(-15)"><circle r="29" fill="#9ddb69"/><ellipse rx="47" ry="10" fill="none" stroke="#fff" stroke-width="4"/></g>
+    <g transform="translate(461 394)"><path d="m0 0 25-12 25 12-25 12Z" fill="#fff"/><path d="M0 0v25l25 13V12Z" fill="#9ddb69"/><path d="M25 12v26l25-13V0Z" fill="#72a548"/></g>
+    <rect x="58" y="415" width="211" height="65" rx="16" fill="#fff"/><g font-family="Microsoft YaHei, PingFang SC, sans-serif" fill="#202320"><text x="79" y="442" font-size="16" font-weight="700">游戏 · AI · 交互作品</text><text x="79" y="465" font-size="13" fill-opacity=".65">把脑洞变成可以玩的原型</text></g>
+    <path d="M849 470h43m-14-14 14 14-14 14" fill="none" stroke="#9ddb69" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

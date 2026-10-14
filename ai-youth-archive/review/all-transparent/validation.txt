@@ -1,0 +1,14 @@
+PASS: five main entries, original tools/data/account routes, saved aliases
+PASS: history recovery, draft restoration, escaping, invitation/blocking, account isolation
+PASS: private-chat panel, independent My notifications, restored background, thread deep links and full view
+PASS: likes/replies/review filters, fresh review data, escaping, individual/all read and separate chat unread
+PASS: notification load cancellation, account isolation, stale read protection and late-navigation cancellation
+PASS: rapid-close race: delayed results cannot read messages or restart polling
+PASS: poll cancellation, stale unread responses, hidden-tab read protection
+PASS: post draft restoration, category retention and account isolation
+PASS: all four demo detail types, missing IDs, full content, honest labels, correct navigation and read-only actions
+PASS: home category filtering, real content coexistence, global search, honest empty results and focused-post isolation
+PASS: work and creator inline search include demos without losing real results or empty states
+PASS: demo separation from real feed, authors, personal works, bookmarks, exported portfolio and credential/preparation inputs
+PASS: all four detail pages survive opening and closing real private dialogue
+PASS: five named icon-only entries, dependency order, available original covers and no fake interaction buttons

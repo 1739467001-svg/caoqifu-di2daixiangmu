@@ -1,0 +1,85 @@
+{
+  "status": "prepared_not_deployed",
+  "preparedAt": "2026-10-11T05:15:09.964Z",
+  "target": "112.74.63.237",
+  "baseUrl": "https://112.74.63.237/ai-youth/",
+  "bundleSha256": "1c7c219c1f6f51b07ed677a1cb383db17010e5b6a730d834cf8afdf15a54bcde",
+  "files": {
+    "app.js": {
+      "sha256": "7d1243ae1d831e8ef856f44212aa25bf558e98dbdfdce57ce0dbabc6dd82e01f",
+      "bytes": 100357
+    },
+    "archive-library.css": {
+      "sha256": "cc5eebf1f87730b02160964e8cc88df777bde163af90b442928b026e409e65b4",
+      "bytes": 43358
+    },
+    "archive-library.js": {
+      "sha256": "1ef95dd812eb15d2ff03b11a91ffcf90af60415aff9457a6ae59fcb7459acca4",
+      "bytes": 51838
+    },
+    "assets/demo/event-6767.svg": {
+      "sha256": "c735528daac7ef0f57808f10c3bfaf5b940939711b9d1130e15917057df89cda",
+      "bytes": 4285
+    },
+    "assets/demo/event-mini-universe.svg": {
+      "sha256": "46fc174e4ec5ed08788f1c492f15b65b5376ece0dc28d67f3b8c28eacce97da1",
+      "bytes": 4911
+    },
+    "assets/demo/event-weekend.svg": {
+      "sha256": "074388c6ea5fe36f9144e4e0fa955ce5acd27b91794e8ae091f4791c03e7e7e0",
+      "bytes": 4180
+    },
+    "assets/demo/work-focus-island.svg": {
+      "sha256": "0e9f1566cc792b7b5bc79054e693ba768f2aee73b8a311036b2adc397ad80107",
+      "bytes": 4349
+    },
+    "assets/demo/work-idea-wall.svg": {
+      "sha256": "aecff117037467490257cb2e557964ef4ac5f92002aa72f5d635a2ea7534160a",
+      "bytes": 4687
+    },
+    "assets/demo/work-pocket-planet.svg": {
+      "sha256": "ae25c6a71041244b4340ee24257741317a18e0b279d02fd13205e30abb817176",
+      "bytes": 3836
+    },
+    "aux-theme.css": {
+      "sha256": "518e21d7c30751c6cda1b2e325819e089bec726a09df51cc230133ee788322ae",
+      "bytes": 15679
+    },
+    "demo-content.js": {
+      "sha256": "02333c41cf849385bacd6d4aa5ceb8cc786872bdd64274c0fddae0c65a082f35",
+      "bytes": 13460
+    },
+    "demo-ui.js": {
+      "sha256": "6135f75838a661eb2f8d2f1b0c0ccbc0d39a93f6f863daca60eb42f5a3eba981",
+      "bytes": 8316
+    },
+    "hash.js": {
+      "sha256": "21c56f0c434b77f33c25ccb60b196cd90dac04790565eb6b42dc4baddd36bfab",
+      "bytes": 1915
+    },
+    "home-theme.css": {
+      "sha256": "6f2b49cf0b22e8b98d28266d7e6624ed15bfd8c8217b537791ec8af7fe219902",
+      "bytes": 29563
+    },
+    "index.html": {
+      "sha256": "13325ae2a6d79f3fc68281a942e113bdc15bc93277284a9e9dd2576f20443bde",
+      "bytes": 4667
+    },
+    "mark.svg": {
+      "sha256": "98833e2b16ad0a5f8c906c7eb2133ddb62886e8a6ab2840dd96f0406c6b12bf8",
+      "bytes": 399
+    },
+    "style.css": {
+      "sha256": "9798384bdb918530c7619432f29979d28c18cc54886d24b0a82970dd5578a7bf",
+      "bytes": 63844
+    },
+    "tools.js": {
+      "sha256": "e75ad2afc8588892be02764e127329d5b2e3ec7469d5123b9e7bb174495a7c45",
+      "bytes": 15644
+    },
+    "workspace.css": {
+      "sha256": "50f6380e9d3ff09548113e4b34f95a2642877e5464af573aa95e84fe8868669c",
+      "bytes": 53615
+    }
+  }
+}

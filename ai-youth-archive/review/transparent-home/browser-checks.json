@@ -1,0 +1,72 @@
+[
+  {
+    "case": "935 home/question",
+    "examples": 2,
+    "overflow": false,
+    "theme": "true"
+  },
+  {
+    "body": "rgb(255, 255, 255)",
+    "case": "events unchanged",
+    "overflow": false,
+    "shell": "rgb(255, 255, 255)",
+    "theme": "false"
+  },
+  {
+    "backgroundPosts": 6,
+    "case": "home chat drawer",
+    "drawerOpen": true,
+    "theme": "true"
+  },
+  {
+    "backgroundTransition": "0s",
+    "case": "motion disabled",
+    "reduced": true
+  },
+  {
+    "background": "rgb(251, 250, 244)",
+    "brokenImages": 0,
+    "case": "615 desktop panel",
+    "height": 524,
+    "iconSizes": [
+      "23px",
+      "23px",
+      "23px",
+      "23px",
+      "23px"
+    ],
+    "overflow": false,
+    "theme": "true",
+    "width": 615
+  },
+  {
+    "case": "935 desktop window",
+    "height": 524,
+    "overflow": false,
+    "sceneHeight": 108,
+    "width": 935
+  },
+  {
+    "case": "1280 desktop window",
+    "height": 720,
+    "heroMask": "linear-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 47%, rgba(0, 0, 0, 0.72) 77%, rgba(0, 0, 0, 0) 100%)",
+    "overflow": false,
+    "panelBackground": "linear-gradient(104deg, rgba(255, 255, 255, 0.94), rgba(255, 255, 255, 0.84) 65%, rgba(255, 255, 255, 0.36) 100%)",
+    "panelBlur": "none",
+    "postCount": 6,
+    "sceneHeight": 164,
+    "textOpacity": "1",
+    "width": 1280
+  },
+  {
+    "backgroundOpacity": "0.9",
+    "case": "before panel hover"
+  },
+  {
+    "backgroundOpacity": "1",
+    "case": "panel hover",
+    "hovered": true,
+    "textOpacity": "1",
+    "transition": "0.18s"
+  }
+]
